@@ -1,0 +1,69 @@
+// control signals and registers
+int frame_valid;
+int line_valid;
+int data_in;
+int Addr;
+int trigger = 0;
+int cs = 1;
+int di;
+int CE# = 1;
+int WE# = 1;
+int OE# = 1;
+int LB# = 1;
+int UB# = 0;
+int Temp;
+int i;
+int j;
+
+// main loop
+while (1)
+{
+   // process a snapshot
+   if (shutter_btn)
+   {
+      while (shutter_btn) {}
+      trigger = 1;
+      while (!frame_valid) {}
+
+      // store pixel data into SRAM
+      while (frame_valid)
+      {
+         CE# = 0;
+         WE# = 0;
+         OE# = 1;
+         trigger = 0;
+         while (!line_valid) {}
+         while (line_valid)
+         {
+	    // Cycle writes to LSByte and MSByte of word in SRAM
+            LB# = ~LB#; 
+            UB# = ~UB#; 
+         }
+         Addr = Addr + 16;
+      }
+      Temp = Addr;
+      Addr = 0;
+      WE# = 1;
+      OE# = 0;
+      CS = 0;
+
+      // store contents of SRAM into microSD
+      while (Addr <= Temp)
+      {
+         i = 0;
+         while (i < 16)
+         {
+            di = data_in[0];
+            j = 0;
+            while (j < 4) {j = j + 1} // stall 4 cycles for microSD
+            data_in >> 1; // shift out lsb of data_in
+            i = i + 1;
+         }
+         Addr = Addr + 16;
+      }
+      CE# = 1;
+      OE# = 1;
+      CS = 1;
+      Addr = 0;
+   }
+}

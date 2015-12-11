@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Slot Machine">
+      <UniqueIdentifier>{ac689b89-cac1-440d-8284-da30147e017a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Blackjack">
+      <UniqueIdentifier>{317c9027-b3b8-4091-ba53-70cc7957c5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texas Holdem">
+      <UniqueIdentifier>{79b8a132-35a3-4872-a602-116732ed2c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Slot Machine">
+      <UniqueIdentifier>{ea3d8e1d-4f46-4ef8-87e4-1f5e04868c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texas Holdem">
+      <UniqueIdentifier>{91a44faa-60e6-4978-abe1-e4ea5bb0f77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Blackjack">
+      <UniqueIdentifier>{6a2aae29-d9ed-4a9e-b0ff-2ba9b9ded308}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>Source Files\Slot Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbols.cpp">
+      <Filter>Source Files\Slot Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Reel.cpp">
+      <Filter>Source Files\Slot Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Reel2.cpp">
+      <Filter>Source Files\Slot Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Reel3.cpp">
+      <Filter>Source Files\Slot Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="BJCard.cpp">
+      <Filter>Source Files\Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="BJDeck.cpp">
+      <Filter>Source Files\Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="Hand.cpp">
+      <Filter>Source Files\Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="Gambler.cpp">
+      <Filter>Source Files\Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="Dealer.cpp">
+      <Filter>Source Files\Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Texas Holdem</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Source Files\Texas Holdem</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files\Texas Holdem</Filter>
+    </ClCompile>
+    <ClCompile Include="Holdem.cpp">
+      <Filter>Source Files\Texas Holdem</Filter>
+    </ClCompile>
+    <ClCompile Include="BJGame.cpp">
+      <Filter>Source Files\Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="BJPlayer.cpp">
+      <Filter>Source Files\Blackjack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Machine.h">
+      <Filter>Header Files\Slot Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbols.h">
+      <Filter>Header Files\Slot Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Reel.h">
+      <Filter>Header Files\Slot Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Reel2.h">
+      <Filter>Header Files\Slot Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Reel3.h">
+      <Filter>Header Files\Slot Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="BJCard.h">
+      <Filter>Header Files\Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="BJDeck.h">
+      <Filter>Header Files\Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>Header Files\Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="Gambler.h">
+      <Filter>Header Files\Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="Dealer.h">
+      <Filter>Header Files\Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Texas Holdem</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Header Files\Texas Holdem</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files\Texas Holdem</Filter>
+    </ClInclude>
+    <ClInclude Include="Holdem.h">
+      <Filter>Header Files\Texas Holdem</Filter>
+    </ClInclude>
+    <ClInclude Include="BJGame.h">
+      <Filter>Header Files\Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="BJPlayer.h">
+      <Filter>Header Files\Blackjack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

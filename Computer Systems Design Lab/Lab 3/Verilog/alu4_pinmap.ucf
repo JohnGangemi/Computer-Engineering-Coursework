@@ -1,0 +1,18 @@
+# PlanAhead Generated physical constraints 
+
+# LED Bank
+NET "Y[0]" LOC = U18;
+NET "Y[1]" LOC = M14;
+NET "Y[2]" LOC = N14;
+NET "Y[3]" LOC = L14;
+NET "Y[4]" LOC = M13;
+
+# Switches
+NET "SEL_in[0]" LOC = A10;
+NET "SEL_in[1]" LOC = D14;
+NET "B_in[0]" LOC = C14;
+NET "B_in[1]" LOC = P15;
+NET "B_in[2]" LOC = P12;
+NET "A_in[0]" LOC = R5;
+NET "A_in[1]" LOC = T5;
+NET "A_in[2]" LOC = E4;

@@ -1,0 +1,169 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr
+test_wrapper.pcf -ucf test_pins.ucf
+
+Design file:              test_wrapper.ncd
+Physical constraint file: test_wrapper.pcf
+Device,package,speed:     xc6slx45,csg324,C,-3 (PRODUCTION 1.21 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock ac97_bit_clock
+-------------+------------+------------+------------+------------+--------------------+--------+
+             |Max Setup to|  Process   |Max Hold to |  Process   |                    | Clock  |
+Source       | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)   | Phase  |
+-------------+------------+------------+------------+------------+--------------------+--------+
+ac97_sdata_in|    2.038(F)|      SLOW  |   -1.455(F)|      FAST  |ac97_bit_clock_BUFGP|   0.000|
+-------------+------------+------------+------------+------------+--------------------+--------+
+
+Setup/Hold to clock clock
+------------+------------+------------+------------+------------+-----------------------------------------------------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                                                             | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                                                            | Phase  |
+------------+------------+------------+------------+------------+-----------------------------------------------------------------------------+--------+
+dwn_btn     |    1.861(R)|      SLOW  |    0.793(R)|      SLOW  |ram_clkout                                                                   |   0.000|
+lft_btn     |    3.007(R)|      SLOW  |    0.490(R)|      SLOW  |ram_clkout                                                                   |   0.000|
+pin_rzq_ref |    1.377(R)|      SLOW  |   -0.487(R)|      SLOW  |ram_instance/u_memory_interface/c3_mcb_drp_clk                               |   0.000|
+pin_zio_ref |    1.899(R)|      SLOW  |   -0.974(R)|      SLOW  |ram_instance/u_memory_interface/c3_mcb_drp_clk                               |   0.000|
+play_sw     |    8.598(R)|      SLOW  |   -2.663(R)|      FAST  |ram_clkout                                                                   |   0.000|
+reset       |   10.821(R)|      SLOW  |   -1.419(R)|      SLOW  |ram_clkout                                                                   |   0.000|
+            |   14.033(R)|      SLOW  |   -5.229(R)|      FAST  |ram_instance/u_memory_interface/c3_mcb_drp_clk                               |   0.000|
+            |    8.928(R)|      SLOW  |   -5.324(R)|      FAST  |ram_instance/u_memory_interface/memc3_infrastructure_inst/mcb_drp_clk_bufg_in|   0.000|
+rht_btn     |    1.636(R)|      SLOW  |    0.863(R)|      SLOW  |ram_clkout                                                                   |   0.000|
+sel_btn     |    3.359(R)|      SLOW  |   -0.071(R)|      SLOW  |ram_clkout                                                                   |   0.000|
+up_btn      |    2.059(R)|      SLOW  |    0.872(R)|      SLOW  |ram_clkout                                                                   |   0.000|
+------------+------------+------------+------------+------------+-----------------------------------------------------------------------------+--------+
+
+Clock ac97_bit_clock to Pad
+--------------+-----------------+------------+-----------------+------------+--------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                    | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)   | Phase  |
+--------------+-----------------+------------+-----------------+------------+--------------------+--------+
+ac97_sdata_out|         8.966(R)|      SLOW  |         4.863(R)|      FAST  |ac97_bit_clock_BUFGP|   0.000|
+ac97_synch    |         9.274(R)|      SLOW  |         5.068(R)|      FAST  |ac97_bit_clock_BUFGP|   0.000|
+--------------+-----------------+------------+-----------------+------------+--------------------+--------+
+
+Clock clock to Pad
+-------------+-----------------+------------+-----------------+------------+------------------------------------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                                | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                               | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------------------------------------+--------+
+hw_ram_ad<0> |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<1> |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<2> |         9.012(R)|      SLOW  |         5.219(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<3> |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<4> |         9.012(R)|      SLOW  |         5.219(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<5> |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<6> |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<7> |         9.012(R)|      SLOW  |         5.219(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<8> |         9.012(R)|      SLOW  |         5.219(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<9> |         9.012(R)|      SLOW  |         5.219(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<10>|         9.012(R)|      SLOW  |         5.219(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<11>|         9.000(R)|      SLOW  |         5.207(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ad<12>|         9.000(R)|      SLOW  |         5.207(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ba<0> |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ba<1> |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ba<2> |         9.012(R)|      SLOW  |         5.219(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_casn  |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ck    |         8.921(R)|      SLOW  |         5.134(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_cke   |         9.000(R)|      SLOW  |         5.207(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ckn   |         8.961(R)|      SLOW  |         5.159(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_dq<0> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<1> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<2> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<3> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<4> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<5> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<6> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<7> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<8> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<9> |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<10>|         9.108(R)|      SLOW  |         5.308(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<11>|         9.108(R)|      SLOW  |         5.308(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<12>|         9.108(R)|      SLOW  |         5.308(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<13>|         9.108(R)|      SLOW  |         5.308(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<14>|         9.099(R)|      SLOW  |         5.299(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_dq<15>|         9.099(R)|      SLOW  |         5.299(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_ldm   |         9.267(R)|      SLOW  |         5.458(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_ldqs_n|         8.999(R)|      SLOW  |         5.205(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_ldqs_p|         8.999(R)|      SLOW  |         5.205(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_odt   |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_rasn  |         9.021(R)|      SLOW  |         5.228(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_udm   |         9.117(R)|      SLOW  |         5.317(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x_180|   0.000|
+hw_ram_udqs_n|         8.999(R)|      SLOW  |         5.205(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_udqs_p|         8.999(R)|      SLOW  |         5.205(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+hw_ram_wen   |         9.012(R)|      SLOW  |         5.219(R)|      FAST  |ram_instance/u_memory_interface/c3_sysclk_2x    |   0.000|
+leds<0>      |        10.249(R)|      SLOW  |         5.755(R)|      FAST  |ram_clkout                                      |   0.000|
+leds<1>      |         9.936(R)|      SLOW  |         5.463(R)|      FAST  |ram_clkout                                      |   0.000|
+leds<2>      |        10.355(R)|      SLOW  |         5.804(R)|      FAST  |ram_clkout                                      |   0.000|
+leds<3>      |        10.544(R)|      SLOW  |         5.934(R)|      FAST  |ram_clkout                                      |   0.000|
+leds<4>      |        10.718(R)|      SLOW  |         6.045(R)|      FAST  |ram_clkout                                      |   0.000|
+leds<5>      |        14.613(R)|      SLOW  |         8.359(R)|      FAST  |ram_clkout                                      |   0.000|
+leds<6>      |        11.511(R)|      SLOW  |         6.398(R)|      FAST  |ram_clkout                                      |   0.000|
+leds<7>      |        11.210(R)|      SLOW  |         6.189(R)|      FAST  |ram_clkout                                      |   0.000|
+pin_rzq_ref  |        15.763(R)|      SLOW  |         8.789(R)|      FAST  |ram_instance/u_memory_interface/c3_mcb_drp_clk  |   0.000|
+pin_zio_ref  |        15.995(R)|      SLOW  |         8.876(R)|      FAST  |ram_instance/u_memory_interface/c3_mcb_drp_clk  |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------------------------------------+--------+
+
+Clock to Setup on destination clock ac97_bit_clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ac97_bit_clock |    6.224|         |    5.109|    2.462|
+clock          |    4.709|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ac97_bit_clock |    0.638|    2.132|         |         |
+clock          |   10.458|    1.192|         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+reset          |pin_rzq_ref    |   22.562|
+reset          |pin_zio_ref    |   22.794|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Apr 30 14:45:26 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 297 MB
+
+
+

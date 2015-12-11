@@ -1,0 +1,114 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Thu Apr 30 14:44:53 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "lcd_enb" LOCATE = SITE "V4" LEVEL 1;
+COMP "lcd_data<0>" LOCATE = SITE "T3" LEVEL 1;
+COMP "lcd_data<1>" LOCATE = SITE "R3" LEVEL 1;
+COMP "lcd_data<2>" LOCATE = SITE "P6" LEVEL 1;
+COMP "lcd_data<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "ac97_synch" LOCATE = SITE "U17" LEVEL 1;
+COMP "ac97_bit_clock" LOCATE = SITE "L13" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "U18" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "M14" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "L14" LEVEL 1;
+COMP "leds<4>" LOCATE = SITE "M13" LEVEL 1;
+COMP "leds<5>" LOCATE = SITE "D4" LEVEL 1;
+COMP "leds<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "leds<7>" LOCATE = SITE "N12" LEVEL 1;
+COMP "pin_zio_ref" LOCATE = SITE "C2" LEVEL 1;
+COMP "pin_rzq_ref" LOCATE = SITE "L6" LEVEL 1;
+COMP "clock" LOCATE = SITE "L15" LEVEL 1;
+COMP "reset" LOCATE = SITE "T15" LEVEL 1;
+COMP "dwn_btn" LOCATE = SITE "P3" LEVEL 1;
+COMP "lft_btn" LOCATE = SITE "P4" LEVEL 1;
+COMP "sel_btn" LOCATE = SITE "F5" LEVEL 1;
+COMP "play_sw" LOCATE = SITE "A10" LEVEL 1;
+COMP "rht_btn" LOCATE = SITE "F6" LEVEL 1;
+COMP "hw_ram_ck" LOCATE = SITE "G3" LEVEL 1;
+COMP "hw_ram_ad<10>" LOCATE = SITE "F4" LEVEL 1;
+COMP "hw_ram_ad<11>" LOCATE = SITE "D3" LEVEL 1;
+COMP "hw_ram_ad<12>" LOCATE = SITE "G6" LEVEL 1;
+COMP "hw_ram_dq<10>" LOCATE = SITE "N2" LEVEL 1;
+COMP "hw_ram_dq<11>" LOCATE = SITE "N1" LEVEL 1;
+COMP "hw_ram_dq<12>" LOCATE = SITE "T2" LEVEL 1;
+COMP "hw_ram_dq<13>" LOCATE = SITE "T1" LEVEL 1;
+COMP "hw_ram_dq<14>" LOCATE = SITE "U2" LEVEL 1;
+COMP "hw_ram_dq<15>" LOCATE = SITE "U1" LEVEL 1;
+COMP "lcd_rs" LOCATE = SITE "V9" LEVEL 1;
+COMP "lcd_rw" LOCATE = SITE "T9" LEVEL 1;
+COMP "ac97_sdata_out" LOCATE = SITE "N16" LEVEL 1;
+COMP "hw_ram_ldqs_n" LOCATE = SITE "L3" LEVEL 1;
+COMP "hw_ram_ldqs_p" LOCATE = SITE "L4" LEVEL 1;
+COMP "hw_ram_udqs_n" LOCATE = SITE "P1" LEVEL 1;
+COMP "hw_ram_udqs_p" LOCATE = SITE "P2" LEVEL 1;
+COMP "audio_reset_b" LOCATE = SITE "T17" LEVEL 1;
+COMP "up_btn" LOCATE = SITE "N4" LEVEL 1;
+COMP "hw_ram_ba<0>" LOCATE = SITE "F2" LEVEL 1;
+COMP "hw_ram_ba<1>" LOCATE = SITE "F1" LEVEL 1;
+COMP "hw_ram_ba<2>" LOCATE = SITE "E1" LEVEL 1;
+COMP "hw_ram_ad<0>" LOCATE = SITE "J7" LEVEL 1;
+COMP "hw_ram_ad<1>" LOCATE = SITE "J6" LEVEL 1;
+COMP "hw_ram_ad<2>" LOCATE = SITE "H5" LEVEL 1;
+COMP "hw_ram_ad<3>" LOCATE = SITE "L7" LEVEL 1;
+COMP "hw_ram_ad<4>" LOCATE = SITE "F3" LEVEL 1;
+COMP "hw_ram_ad<5>" LOCATE = SITE "H4" LEVEL 1;
+COMP "hw_ram_ad<6>" LOCATE = SITE "H3" LEVEL 1;
+COMP "hw_ram_ad<7>" LOCATE = SITE "H6" LEVEL 1;
+COMP "hw_ram_ad<8>" LOCATE = SITE "D2" LEVEL 1;
+COMP "hw_ram_ad<9>" LOCATE = SITE "D1" LEVEL 1;
+COMP "hw_ram_dq<0>" LOCATE = SITE "L2" LEVEL 1;
+COMP "hw_ram_dq<1>" LOCATE = SITE "L1" LEVEL 1;
+COMP "hw_ram_dq<2>" LOCATE = SITE "K2" LEVEL 1;
+COMP "hw_ram_dq<3>" LOCATE = SITE "K1" LEVEL 1;
+COMP "hw_ram_dq<4>" LOCATE = SITE "H2" LEVEL 1;
+COMP "hw_ram_dq<5>" LOCATE = SITE "H1" LEVEL 1;
+COMP "hw_ram_dq<6>" LOCATE = SITE "J3" LEVEL 1;
+COMP "hw_ram_dq<7>" LOCATE = SITE "J1" LEVEL 1;
+COMP "hw_ram_dq<8>" LOCATE = SITE "M3" LEVEL 1;
+COMP "hw_ram_dq<9>" LOCATE = SITE "M1" LEVEL 1;
+COMP "ac97_sdata_in" LOCATE = SITE "T18" LEVEL 1;
+COMP "hw_ram_casn" LOCATE = SITE "K5" LEVEL 1;
+COMP "hw_ram_rasn" LOCATE = SITE "L5" LEVEL 1;
+COMP "hw_ram_cke" LOCATE = SITE "H7" LEVEL 1;
+COMP "hw_ram_ckn" LOCATE = SITE "G1" LEVEL 1;
+COMP "hw_ram_ldm" LOCATE = SITE "K3" LEVEL 1;
+COMP "hw_ram_odt" LOCATE = SITE "K6" LEVEL 1;
+COMP "hw_ram_udm" LOCATE = SITE "K4" LEVEL 1;
+COMP "hw_ram_wen" LOCATE = SITE "E3" LEVEL 1;
+PIN
+        ram_instance/u_memory_interface/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<618>
+        = BEL
+        "ram_instance/u_memory_interface/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0"
+        PINNAME SELFREFRESHMODE;
+PIN
+        ram_instance/u_memory_interface/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/CKE_Train_pins<2>
+        = BEL
+        "ram_instance/u_memory_interface/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/CKE_Train"
+        PINNAME Q;
+PIN
+        ram_instance/u_memory_interface/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL_pins<2>
+        = BEL
+        "ram_instance/u_memory_interface/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL"
+        PINNAME Q;
+PIN
+        ram_instance/u_memory_interface/memc3_infrastructure_inst/BUFPLL_MCB1_pins<3>
+        = BEL
+        "ram_instance/u_memory_interface/memc3_infrastructure_inst/BUFPLL_MCB1"
+        PINNAME LOCK;
+PIN
+        "ram_instance/u_memory_interface/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/samc_0_pins<618>"
+        TIG;
+PIN
+        "ram_instance/u_memory_interface/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/CKE_Train_pins<2>"
+        TIG;
+PIN
+        "ram_instance/u_memory_interface/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL_pins<2>"
+        TIG;
+PIN
+        "ram_instance/u_memory_interface/memc3_infrastructure_inst/BUFPLL_MCB1_pins<3>"
+        TIG;
+SCHEMATIC END;
+

@@ -1,0 +1,14 @@
+# --------------------------------------------------------------
+# Author: Matthew Lewandowski
+# Course: CIS4930 - VLSI Design Automation
+# --------------------------------------------------------------
+# Sample Netlist of Full Adder
+# -------------------------------------------------------------- 
+.model FA_Sample
+.inputs A B CIN		# Inputs to the structure
+.outputs SUM COUT	# Output of the structure
+.gate xor2  a=A b=B O=T1
+.gate xor2  a=T1 b=CIN O=SUM
+.gate aoi22 a=T1 b=CIN c=B d=A O=T2
+.gate inv   a=T2 O=COUT
+.end FA_Sample

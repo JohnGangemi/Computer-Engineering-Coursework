@@ -1,0 +1,623 @@
+;Inputs/Outputs
+CONSTANT 	enb_port, 		00    	; enable read/write for lcd cntrlr (output)
+CONSTANT 	rs_port, 		01    	; register select for lcd cntrlr (output)
+CONSTANT 	rw_port, 		02    	; read/~write for lcd cntrlr (output)
+CONSTANT 	lcd_data, 		03    	; lcd data (output)
+CONSTANT	lcd_wrt_req, 	04		; lcd request from fsm (input)
+CONSTANT	lcd_wrt_ack, 	05		; lcd write finished (output)
+CONSTANT 	lcd_state, 		06		; lcd fsm output (input)
+
+;LCD States
+CONSTANT	main_play,		00
+CONSTANT	main_record,	01
+CONSTANT	main_delete, 	02
+CONSTANT	main_deleteall, 03
+CONSTANT	main_volume,	04
+CONSTANT 	vol_lvl1,		05
+CONSTANT	vol_lvl2,		06
+CONSTANT	vol_lvl3,		07
+CONSTANT	stop_record,	08
+CONSTANT	track_1,		09
+CONSTANT	track_2,		0A
+CONSTANT	track_3,		0B
+CONSTANT	track_4,		0C
+CONSTANT	track_5,		0D
+CONSTANT	back,			0E
+CONSTANT    mem_full,		0F
+
+NAMEREG		s0, nibble_hi
+NAMEREG		s1, nibble_lo
+NAMEREG		s2, rs
+NAMEREG		s3, rw
+NAMEREG		s4, enb
+NAMEREG 	s5, 1us
+NAMEREG		s6, 40us
+NAMEREG		s7, 2ms
+NAMEREG		s8, 30ms
+NAMEREG		s9, 250ns
+NAMEREG		sA, tmp0
+
+ADDRESS 000
+DISABLE INTERRUPT
+
+INIT:
+	LOAD rs, 00
+	LOAD rw, 00				
+	OUTPUT rs, rs_port					; target instruction register
+	OUTPUT rw, rw_port				; set static write
+	CALL DELAY_30ms
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE								; function set
+	CALL DELAY_40us
+	LOAD nibble_hi, 00
+	LOAD nibble_lo, 0C
+	CALL WRITE								; display control
+	CALL DELAY_40us
+	LOAD nibble_hi, 00
+	LOAD nibble_lo, 01
+	CALL WRITE								; display clear
+	CALL DELAY_2ms
+	LOAD nibble_hi, 00
+	LOAD nibble_lo, 06
+	CALL WRITE_AND_DELAY		; entry mode
+
+INIT_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 08
+	CALL WRITE_AND_DELAY		; H
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; a
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; R
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; R
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; o
+	
+LOOP:
+	INPUT tmp0, lcd_wrt_req				; poll for lcd write request from fsm
+	COMPARE tmp0, 01
+	JUMP Z, LCD_NEXT_STATE			; process write request
+	JUMP LOOP
+
+LCD_NEXT_STATE:					
+	INPUT tmp0, lcd_state
+
+	COMPARE tmp0, main_play
+	JUMP Z, PLAY_MSG
+	
+	COMPARE tmp0, main_record
+	JUMP Z, RECORD_MSG
+	
+	COMPARE tmp0, main_delete
+	JUMP Z, DEL_MSG
+	
+	COMPARE tmp0, main_deleteall
+	JUMP Z, DEL_ALL_MSG
+	
+	COMPARE tmp0, main_volume
+	JUMP Z, VOL_MSG
+	
+	COMPARE tmp0, vol_lvl1
+	JUMP Z, VOL_1_MSG
+	
+	COMPARE tmp0, vol_lvl2
+	JUMP Z, VOL_2_MSG
+	
+	COMPARE tmp0, vol_lvl3
+	JUMP Z, VOL_3_MSG
+	
+	COMPARE tmp0, stop_record
+	JUMP Z, STOP_REC_MSG
+
+	COMPARE tmp0, track_1
+	JUMP Z, TRACK_1_MSG
+	
+	COMPARE tmp0, track_2
+	JUMP Z, TRACK_2_MSG
+	
+	COMPARE tmp0, track_3
+	JUMP Z, TRACK_3_MSG
+	
+	COMPARE tmp0, track_4
+	JUMP Z, TRACK_4_MSG
+	
+	COMPARE tmp0, track_5
+	JUMP Z, TRACK_5_MSG
+	
+	COMPARE tmp0, back
+	JUMP Z, BACK_MSG
+	
+	COMPARE tmp0, mem_full
+	JUMP Z, MEMFULL_MSG
+	
+	JUMP LOOP
+	
+PLAY_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; P
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0C
+	CALL WRITE_AND_DELAY		; l
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; a
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 09
+	CALL WRITE_AND_DELAY		; y
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+
+RECORD_MSG:
+	CALL CLEAR_SCR	
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; R
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; e
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; c
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; o
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; r
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; d
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+
+DEL_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; D
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; e
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0C
+	CALL WRITE_AND_DELAY		; l
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; e
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; t
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; e
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+
+DEL_ALL_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; D
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; e
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0C
+	CALL WRITE_AND_DELAY		; l
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; e
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; t
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; e
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; a
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0C
+	CALL WRITE_AND_DELAY		; l
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0C
+	CALL WRITE_AND_DELAY		; l
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+
+VOL_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 06
+	CALL WRITE_AND_DELAY		; V
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; o
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0C
+	CALL WRITE_AND_DELAY		; l
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; u
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0D
+	CALL WRITE_AND_DELAY		; m
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; e
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+
+VOL_1_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 0D
+	CALL WRITE_AND_DELAY		; -
+	LOAD nibble_hi, 0F
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; bar
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space	
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 0B
+	CALL WRITE_AND_DELAY		; +
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+	
+VOL_2_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 0D
+	CALL WRITE_AND_DELAY		; -
+	LOAD nibble_hi, 0F
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; bar
+	LOAD nibble_hi, 0F
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; bar	
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 0B
+	CALL WRITE_AND_DELAY		; +
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+	
+VOL_3_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 0D
+	CALL WRITE_AND_DELAY		; -
+	LOAD nibble_hi, 0F
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; bar
+	LOAD nibble_hi, 0F
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; bar	
+	LOAD nibble_hi, 0F
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; bar	
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 0B
+	CALL WRITE_AND_DELAY		; +
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+
+STOP_REC_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; S
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; t
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0F
+	CALL WRITE_AND_DELAY		; o	
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; p	
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; r
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; e
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; c
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+	
+TRACK_1_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; T
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; r
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; a
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; c
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0B
+	CALL WRITE_AND_DELAY		; k
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 03
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; 1
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+	
+TRACK_2_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; T
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; r
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; a
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; c
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0B
+	CALL WRITE_AND_DELAY		; k
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 03
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; 2
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+	
+TRACK_3_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; T
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; r
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; a
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; c
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0B
+	CALL WRITE_AND_DELAY		; k
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 03
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; 3
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+	
+TRACK_4_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; T
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; r
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; a
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; c
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0B
+	CALL WRITE_AND_DELAY		; k
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 03
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; 4
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+
+TRACK_5_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 04
+	CALL WRITE_AND_DELAY		; T
+	LOAD nibble_hi, 07
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; r
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; a
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; c
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0B
+	CALL WRITE_AND_DELAY		; k
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 03
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; 5
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+
+BACK_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 02
+	CALL WRITE_AND_DELAY		; B
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 01
+	CALL WRITE_AND_DELAY		; a
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 03
+	CALL WRITE_AND_DELAY		; c
+	LOAD nibble_hi, 06
+	LOAD nibble_lo, 0B
+	CALL WRITE_AND_DELAY		; k
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP
+
+MEMFULL_MSG:
+	CALL CLEAR_SCR
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 0D
+	CALL WRITE_AND_DELAY		; M
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; E
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 0D
+	CALL WRITE_AND_DELAY		; M
+	LOAD nibble_hi, 02
+	LOAD nibble_lo, 00
+	CALL WRITE_AND_DELAY		; space
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 06
+	CALL WRITE_AND_DELAY		; F
+	LOAD nibble_hi, 05
+	LOAD nibble_lo, 05
+	CALL WRITE_AND_DELAY		; U
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 0C
+	CALL WRITE_AND_DELAY		; L
+	LOAD nibble_hi, 04
+	LOAD nibble_lo, 0C
+	CALL WRITE_AND_DELAY		; L
+	
+	CALL PULSE_WRITE_ACK
+	JUMP LOOP	
+	
+CLEAR_SCR:
+	LOAD rs, 00
+	OUTPUT rs, rs_port			; target instruction register
+	LOAD nibble_hi, 00
+	LOAD nibble_lo, 01
+	CALL WRITE					
+	XOR rs, 01
+	OUTPUT rs, rs_port			; target data register
+	CALL DELAY_2ms
+	RETURN
+	
+WRITE:
+	OUTPUT nibble_hi, lcd_data
+	CALL PULSE_ENB	
+	CALL DELAY_1us
+	OUTPUT nibble_lo, lcd_data	
+	CALL PULSE_ENB
+	RETURN	
+	
+WRITE_AND_DELAY:
+	OUTPUT nibble_hi, lcd_data
+	CALL PULSE_ENB	
+	CALL DELAY_1us
+	OUTPUT nibble_lo, lcd_data	
+	CALL PULSE_ENB
+	CALL DELAY_40us
+	RETURN
+	
+PULSE_ENB:
+	LOAD enb, 01
+	OUTPUT enb, enb_port
+	CALL HOLD_ENB
+	XOR enb, 01
+	OUTPUT enb, enb_port
+	RETURN
+
+PULSE_WRITE_ACK:
+	LOAD tmp0, 01
+	OUTPUT tmp0, lcd_wrt_ack
+	XOR tmp0, 01
+	OUTPUT tmp0, lcd_wrt_ack
+	RETURN
+	
+DELAY_1us:
+	LOAD 1us, 9'd
+	WAIT_1us:
+		SUB 1us, 01
+		JUMP NZ, WAIT_1us
+		RETURN
+
+DELAY_40us:
+	LOAD 40us, 40'd
+	WAIT_40us:
+		CALL DELAY_1us
+		SUB 40us, 01
+		JUMP NZ, WAIT_40us
+		RETURN
+
+DELAY_2ms:
+	LOAD 2ms, 50'd
+	WAIT_2ms:
+		CALL DELAY_40us
+		SUB 2ms, 01
+		JUMP NZ, WAIT_2ms
+		RETURN
+
+DELAY_30ms:
+	LOAD 30ms, 15'd
+	WAIT_30ms:
+		CALL DELAY_2ms
+		SUB 30ms, 01
+		JUMP NZ, WAIT_30ms
+		RETURN
+	
+HOLD_ENB:
+	LOAD 250ns, 3'd
+	WAIT_ENB:
+		SUB 250ns, 01
+		JUMP NZ, WAIT_ENB
+		RETURN

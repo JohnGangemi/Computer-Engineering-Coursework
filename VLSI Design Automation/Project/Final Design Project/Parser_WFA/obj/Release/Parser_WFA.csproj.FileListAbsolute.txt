@@ -1,0 +1,32 @@
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.exe.config
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.exe
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.pdb
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.main_window.resources
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.Properties.Resources.resources
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.exe
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.pdb
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.exe.config
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.exe
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.pdb
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.main_window.resources
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.Properties.Resources.resources
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.exe
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.exe.config
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.main_window.resources
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.Properties.Resources.resources
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.pdb
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.exe.config
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.exe
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.pdb
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.exe
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\bin\Release\Parser_WFA.pdb
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.main_window.resources
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.Properties.Resources.resources
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Release\Parser_WFA.csproj.GenerateResource.Cache

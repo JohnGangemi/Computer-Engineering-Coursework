@@ -1,0 +1,8 @@
+switches DSIN $00
+leds DSOUT $01
+
+LOOP:
+   IN s0, switches
+   XOR s0, $FF
+   OUT s0, leds
+   JUMP LOOP

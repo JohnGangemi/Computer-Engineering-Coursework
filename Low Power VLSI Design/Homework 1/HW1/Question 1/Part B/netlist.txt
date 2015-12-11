@@ -1,0 +1,17 @@
+* C:\Program Files (x86)\LTC\LTspiceIV\q1_b.asc
+M1 n1 IN 0 0 NMOS l=.03u w=S
+M2 n2 n1 0 0 NMOS l=.03u w=S
+M3 Vout n2 0 0 NMOS l=.03u w=S
+M4 Vdd IN n1 Vdd PMOS l=.03u w=S
+M5 Vdd n1 n2 Vdd PMOS l=.03u w=S
+M6 Vdd n2 Vout Vdd PMOS l=.03u w=S
+V1 IN 0 PULSE(0 1 0 100p 100p .3n 1n 100)
+V2 Vdd 0 1
+.tran 100n
+.include 'C:\Users\Johne\Documents\models\22nm_lp.file.txt'
+.measure tran trise trig V(n1) val=0.5 fall=1 targ V(n2) val=0.5 rise=1
+.measure tran tfall trig V(n1) val=0.5 rise=1 targ V(n2) val=0.5 fall=1
+.measure invAvg param = '(trise+tfall)/2'
+.step param S 1um 5um 1um
+.backanno
+.end

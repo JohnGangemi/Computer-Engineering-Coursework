@@ -1,0 +1,411 @@
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -uc RAM_Reference_Pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -uc RAM_Reference_Pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -uc RAM_Reference_Pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -uc RAM_Reference_Pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf -ucf RAM_Reference_Pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -uc RAM_Reference_Pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf -ucf RAM_Reference_Pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.xst" -ofn "C:/Users/C4U10/Documents/E/RamTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../FrazierAudio/ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 test_wrapper.ngc test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest - Copy/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest - Copy/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest - Copy/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest - Copy/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest - Copy/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest - Copy/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/RamAudioTest - Copy/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/RamAudioTest - Copy/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 
+xst -intstyle ise -ifn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.xst" -ofn "E:/CSD Final Project/Audio Control with Switches/RamAudioTest/test_wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc test_pins.ucf -p xc6slx45-csg324-3 "test_wrapper.ngc" test_wrapper.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_wrapper_map.ncd test_wrapper.ngd test_wrapper.pcf 
+par -w -intstyle ise -ol high -mt off test_wrapper_map.ncd test_wrapper.ncd test_wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_wrapper.twx test_wrapper.ncd -o test_wrapper.twr test_wrapper.pcf -ucf test_pins.ucf 
+bitgen -intstyle ise -f test_wrapper.ut test_wrapper.ncd 

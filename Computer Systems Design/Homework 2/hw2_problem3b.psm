@@ -1,0 +1,59 @@
+; adapted from PicoBlaze KCPSM6 Instruction Set Reference Documentation
+; topic: "Text Strings"
+; author: Xilinx
+; page: 99
+
+buffer_full DSIN $05
+tx_data DSOUT $03
+
+LOOP:
+   LOAD s0, $61   ;W
+   CALL TRANSMIT
+   LOAD s0, $65   ;e
+   CALL TRANSMIT
+   LOAD s0, $6B   ;l
+   CALL TRANSMIT
+   LOAD s0, $63   ;c
+   CALL TRANSMIT
+   LOAD s0, $6F   ;o
+   CALL TRANSMIT
+   LOAD s0, $6D   ;m
+   CALL TRANSMIT
+   LOAD s0, $65   ;e
+   CALL TRANSMIT
+   LOAD s0, $20   ;space
+   CALL TRANSMIT
+   LOAD s0, $74   ;t
+   CALL TRANSMIT
+   LOAD s0, $6F   ;o
+   CALL TRANSMIT
+   LOAD s0, $20   ;space
+   CALL TRANSMIT
+   LOAD s0, $4C   ;L
+   CALL TRANSMIT
+   LOAD s0, $6F   ;o
+   CALL TRANSMIT
+   LOAD s0, $6F   ;o
+   CALL TRANSMIT
+   LOAD s0, $70   ;p
+   CALL TRANSMIT
+   LOAD s0, $62   ;b
+   CALL TRANSMIT
+   LOAD s0, $61   ;a
+   CALL TRANSMIT
+   LOAD s0, $63   ;c
+   CALL TRANSMIT
+   LOAD s0, $6B   ;k
+   CALL TRANSMIT
+   LOAD s0, $21   ;!
+   CALL TRANSMIT
+   LOAD s0, $0   ;null
+   CALL TRANSMIT
+   JUMP LOOP
+
+TRANSMIT:
+   IN s1, buffer_full
+   COMP s1, $00
+   JUMP NZ, TRANSMIT
+   OUT s0, tx_data
+   RET

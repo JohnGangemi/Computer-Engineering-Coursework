@@ -1,0 +1,10 @@
+Enter the number of vertices: Vertices numbered from 0 to 4
+
+Enter edges:
+Format: <from-vertex> <to-vertex> <weight>
+Example: Edge from 1 to 2, weight 50:  1 2 50
+Enter '-1 -1 -1' to end.
+Edge(4, 1, 1)
+Edge(0, 3, 2)
+Edge(3, 4, 3)
+Edge(2, 4, 4)

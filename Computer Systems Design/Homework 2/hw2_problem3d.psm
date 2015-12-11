@@ -1,0 +1,23 @@
+data_present DSIN $04
+buffer_full DSIN $05
+rx_data DSIN $02
+tx_data DSOUT $03
+
+LOOP:
+   IN s2, rx_data
+   CALL CHECK_DATA
+   CALL CHECK_BUFF
+   OUT s2, tx_data
+   JUMP LOOP
+	
+CHECK_DATA:
+   IN s0, data_present
+   COMP s0, $01
+   RET Z
+   JUMP CHECK_DATA
+
+CHECK_BUFF:
+   IN s1, buffer_full
+   COMP s1, $00
+   RET Z
+   JUMP CHECK_BUFF

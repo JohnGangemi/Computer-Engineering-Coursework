@@ -1,0 +1,56 @@
+Questionable use of curly braces in ".measure invavg param = {(trise+tfall)/2}"
+    Error: undefined symbol in: "([trise]+tfall)/2"
+Circuit: * C:\Program Files (x86)\LTC\LTspiceIV\q1_b.asc
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration for .op point succeeded.
+.step s=1e-006
+.step s=2e-006
+.step s=3e-006
+.step s=4e-006
+.step s=5e-006
+
+
+Measurement: trise
+  step	trise	FROM	TO
+     1	2.2766e-011	8.6957e-011	1.09723e-010
+     2	2.29472e-011	8.59375e-011	1.08885e-010
+     3	2.19014e-011	8.66553e-011	1.08557e-010
+     4	2.22341e-011	8.66146e-011	1.08849e-010
+     5	2.18783e-011	8.75064e-011	1.09385e-010
+
+Measurement: tfall
+  step	tfall	FROM	TO
+     1	2.18632e-011	4.93431e-010	5.15294e-010
+     2	2.0839e-011	4.9448e-010	5.15319e-010
+     3	2.0581e-011	4.94451e-010	5.15032e-010
+     4	2.09018e-011	4.94375e-010	5.15277e-010
+     5	1.99999e-011	4.95549e-010	5.15549e-010
+
+Measurement: invavg
+  step	((trise+tfall)/2)
+     1	2.23146e-011
+     2	2.18931e-011
+     3	2.12412e-011
+     4	2.1568e-011
+     5	2.09391e-011
+
+
+Date: Sat Jan 17 15:14:34 2015
+Total elapsed time: 2.934 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 27627
+traniter = 27616
+tranpoints = 9094
+accept = 6999
+rejected = 2095
+matrix size = 31
+fillins = 0
+solver = Normal
+Matrix Compiler1: 3.42 KB object code size  0.8/0.3/[0.1]
+Matrix Compiler2: off  [0.3]/0.4/0.4
+
+

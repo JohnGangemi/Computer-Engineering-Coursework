@@ -1,0 +1,26 @@
+Circuit: * C:\Program Files (x86)\LTC\LTspiceIV\q2_b.asc
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration for .op point succeeded.
+
+trise=6.16738e-011 FROM 6.1436e-012 TO 6.78174e-011
+
+
+Date: Sat Jan 17 14:56:23 2015
+Total elapsed time: 2.075 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 78279
+traniter = 78254
+tranpoints = 22016
+accept = 17127
+rejected = 4889
+matrix size = 29
+fillins = 0
+solver = Normal
+Matrix Compiler1: 3.75 KB object code size  0.8/0.3/[0.2]
+Matrix Compiler2: off  [0.3]/0.4/0.6
+
+

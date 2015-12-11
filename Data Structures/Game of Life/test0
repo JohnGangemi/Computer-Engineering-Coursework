@@ -1,0 +1,81 @@
+Welcome to Conway's game of Life.
+The model is a rectangular grid in which each cell is either "alive" or "dead"
+Each configuration evolves into a new configuration depending rules based on
+the number of live neighbors
+
+You will be prompted for the number of rows and columns in your grid
+and then for the rules for the transformation of one configuration to the next
+
+After that you will see a visual representation of the initial configuration
+
+and repeatedly asked if you want to see the next generation (enter y for yes, n for no)
+
+Enter the number of rows in your grid: Enter the number of columns in your grid: 
+Enter the live neighbor counts (between 0 and 8) that will cause a dead cell 
+to become alive in the next generation, terminating input with -1
+
+Enter the live neighbor counts (between 0 and 8) that will cause a live cell 
+to continue living in the next generation, terminating input with -1
+List the coordinates for living cells.
+Terminate the list with the special pair -1 -1
+
+
+Current Life configuration:
+
+ * * 
+** * 
+ *** 
+*  **
+ *** 
+
+Continue? (y/n)
+
+Current Life configuration:
+
+**   
+*  **
+     
+*   *
+ ****
+
+Continue? (y/n)
+
+Current Life configuration:
+
+**   
+**   
+   **
+ ** *
+ ****
+
+Continue? (y/n)
+
+Current Life configuration:
+
+**   
+***  
+*  **
+ *   
+ *  *
+
+Continue? (y/n)
+
+Current Life configuration:
+
+* *  
+  ** 
+*  * 
+*****
+     
+
+Continue? (y/n)
+
+Current Life configuration:
+
+ *** 
+  ** 
+*    
+*****
+ *** 
+
+Continue? (y/n)

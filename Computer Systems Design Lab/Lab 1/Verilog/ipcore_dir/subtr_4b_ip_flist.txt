@@ -1,0 +1,15 @@
+# Output products list for <subtr_4b_ip>
+_xmsgs\pn_parser.xmsgs
+subtr_4b_ip.asy
+subtr_4b_ip.gise
+subtr_4b_ip.ngc
+subtr_4b_ip.sym
+subtr_4b_ip.v
+subtr_4b_ip.veo
+subtr_4b_ip.xco
+subtr_4b_ip.xise
+subtr_4b_ip\doc\c_addsub_v11_0_readme.txt
+subtr_4b_ip\doc\c_addsub_v11_0_vinfo.html
+subtr_4b_ip\doc\ds214_addsub.pdf
+subtr_4b_ip_flist.txt
+subtr_4b_ip_xmdf.tcl

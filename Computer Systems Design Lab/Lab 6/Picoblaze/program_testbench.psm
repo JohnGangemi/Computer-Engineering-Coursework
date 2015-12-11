@@ -1,0 +1,162 @@
+;================================================================
+; Program Buns
+;================================================================
+
+switches DSIN $00 ; Switch read port
+leds DSOUT $01 ; LED write port
+uart_data_rx DSIN $02 ; UART receive read port
+uart_data_tx DSOUT $03 ; UART transmit write port
+data_present DSIN $04 ; UART stat read port, lsb
+buffer_full DSIN $05 ; UART stat read port, lsb
+
+;================================================================
+; Program Condiments
+;================================================================
+
+all_clear EQU $00    ; define all clear
+all_set EQU $FF    ; define all set
+
+ascii_NUL EQU $00    ; ascii code (null character)
+ascii_SPACE EQU $20    ; ascii code
+ascii_EXCLAIM EQU $21    ; ascii code
+
+ascii_0 EQU $30    ; ascii code
+ascii_1 EQU $31    ; ascii code
+ascii_2 EQU $32    ; ascii code
+ascii_3 EQU $33    ; ascii code
+ascii_4 EQU $34    ; ascii code
+ascii_5 EQU $35    ; ascii code
+ascii_6 EQU $36    ; ascii code
+ascii_7 EQU $37    ; ascii code
+ascii_8 EQU $38    ; ascii code
+ascii_9 EQU $39    ; ascii code
+
+ascii_A EQU $41    ; ascii code
+ascii_B EQU $42    ; ascii code
+ascii_C EQU $43    ; ascii code
+ascii_D EQU $44    ; ascii code
+ascii_E EQU $45    ; ascii code
+ascii_F EQU $46    ; ascii code
+ascii_G EQU $47    ; ascii code
+ascii_H EQU $48    ; ascii code
+ascii_I EQU $49    ; ascii code
+ascii_J EQU $4A    ; ascii code
+ascii_K EQU $4B    ; ascii code
+ascii_L EQU $4C    ; ascii code
+ascii_M EQU $4D    ; ascii code
+ascii_N EQU $4E    ; ascii code
+ascii_O EQU $4F    ; ascii code
+ascii_P EQU $50    ; ascii code
+ascii_Q EQU $51    ; ascii code
+ascii_R EQU $52    ; ascii code
+ascii_S EQU $53    ; ascii code
+ascii_T EQU $54    ; ascii code
+ascii_U EQU $55    ; ascii code
+ascii_V EQU $56    ; ascii code
+ascii_W EQU $57    ; ascii code
+ascii_X EQU $58    ; ascii code
+ascii_Y EQU $59    ; ascii code
+ascii_Z EQU $5A    ; ascii code
+
+ascii_a_ EQU $61    ; ascii code
+ascii_b_ EQU $62    ; ascii code
+ascii_c_ EQU $63    ; ascii code
+ascii_d_ EQU $64    ; ascii code
+ascii_e_ EQU $65    ; ascii code
+ascii_f_ EQU $66    ; ascii code
+ascii_g_ EQU $67    ; ascii code
+ascii_h_ EQU $68    ; ascii code
+ascii_i_ EQU $69    ; ascii code
+ascii_j_ EQU $6A    ; ascii code
+ascii_k_ EQU $6B    ; ascii code
+ascii_l_ EQU $6C    ; ascii code
+ascii_m_ EQU $6D    ; ascii code
+ascii_n_ EQU $6E    ; ascii code
+ascii_o_ EQU $6F    ; ascii code
+ascii_p_ EQU $70    ; ascii code
+ascii_q_ EQU $71    ; ascii code
+ascii_r_ EQU $72    ; ascii code
+ascii_s_ EQU $73    ; ascii code
+ascii_t_ EQU $74    ; ascii code
+ascii_u_ EQU $75    ; ascii code
+ascii_v_ EQU $76    ; ascii code
+ascii_w_ EQU $77    ; ascii code
+ascii_x_ EQU $78    ; ascii code
+ascii_y_ EQU $79    ; ascii code
+ascii_z_ EQU $7A    ; ascii code
+
+;================================================================
+; Program Meat
+;================================================================
+
+cold_start:     LOAD     s0, s0            ; (nop)
+				
+				LOAD s0, ascii_W   ;W
+				CALL TRANSMIT
+				LOAD s0, ascii_e_   ;e
+				CALL TRANSMIT
+				LOAD s0, ascii_l_   ;l
+				CALL TRANSMIT
+				LOAD s0, ascii_c_   ;c
+				CALL TRANSMIT
+				LOAD s0, ascii_o_   ;o
+				CALL TRANSMIT
+				LOAD s0, ascii_m_   ;m
+				CALL TRANSMIT
+				LOAD s0, ascii_e_   ;e
+				CALL TRANSMIT
+				LOAD s0, ascii_SPACE   ;space
+				CALL TRANSMIT
+				LOAD s0, ascii_t_   ;t
+				CALL TRANSMIT
+				LOAD s0, ascii_o_   ;o
+				CALL TRANSMIT
+				LOAD s0, ascii_SPACE   ;space
+				CALL TRANSMIT
+				LOAD s0, ascii_L   ;L
+				CALL TRANSMIT
+				LOAD s0, ascii_o_   ;o
+				CALL TRANSMIT
+				LOAD s0, ascii_o_   ;o
+				CALL TRANSMIT
+				LOAD s0, ascii_p_   ;p
+				CALL TRANSMIT
+				LOAD s0, ascii_b_   ;b
+				CALL TRANSMIT
+				LOAD s0, ascii_a_   ;a
+				CALL TRANSMIT
+				LOAD s0, ascii_c_   ;c
+				CALL TRANSMIT
+				LOAD s0, ascii_k_   ;k
+				CALL TRANSMIT
+				LOAD s0, ascii_EXCLAIM   ;!
+				CALL TRANSMIT
+				LOAD s0, ascii_NUL   ;null
+				CALL TRANSMIT
+				JUMP led_echo
+
+TRANSMIT:
+				IN s1, buffer_full
+				COMP s1, $00
+				JUMP NZ, TRANSMIT
+				OUT s0, uart_data_tx
+				RET
+				
+led_echo:       LOAD     s0, s0            ; (nop)
+
+				IN s0, switches
+				XOR s0, $FF
+				OUT s0, leds
+
+rs232_echo:     LOAD     s0, s0            ; (nop)
+				
+				IN s0, uart_data_rx
+				IN s1, data_present
+				COMP s1, $01
+				JUMP NZ, led_echo
+				IN s2, buffer_full
+				COMP s2, $00
+				JUMP NZ, led_echo
+				OUT s0, uart_data_tx
+				JUMP led_echo         	  ; endlessly loop
+

@@ -1,0 +1,108 @@
+Circuit: * C:\Users\Family\Desktop\LowPower Stage 3\Stage 3 Write 0 Delay.asc
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration for .op point succeeded.
+.step x=1e-007
+.step x=2e-007
+.step x=3e-007
+.step x=4e-007
+.step x=5e-007
+.step x=6e-007
+.step x=7e-007
+.step x=8e-007
+.step x=9e-007
+.step x=1e-006
+.step x=1.1e-006
+.step x=1.2e-006
+.step x=1.3e-006
+.step x=1.4e-006
+.step x=1.5e-006
+.step x=1.6e-006
+.step x=1.7e-006
+.step x=1.8e-006
+.step x=1.9e-006
+.step x=2e-006
+.step x=2.1e-006
+.step x=2.2e-006
+.step x=2.3e-006
+.step x=2.4e-006
+.step x=2.5e-006
+.step x=2.6e-006
+.step x=2.7e-006
+.step x=2.8e-006
+.step x=2.9e-006
+.step x=3e-006
+.step x=3.1e-006
+.step x=3.2e-006
+.step x=3.3e-006
+.step x=3.4e-006
+.step x=3.5e-006
+.step x=3.6e-006
+.step x=3.7e-006
+.step x=3.8e-006
+.step x=3.9e-006
+.step x=4e-006
+
+
+Measurement: point_b
+  step	v(vl2)=0.05v
+     1	1.51861e-009
+     2	1.51859e-009
+     3	1.51857e-009
+     4	1.51854e-009
+     5	1.51852e-009
+     6	1.5185e-009
+     7	1.51848e-009
+     8	1.51846e-009
+     9	1.51844e-009
+    10	1.51842e-009
+    11	1.5184e-009
+    12	1.51838e-009
+    13	1.51836e-009
+    14	1.51834e-009
+    15	1.51832e-009
+    16	1.5183e-009
+    17	1.51828e-009
+    18	1.51826e-009
+    19	1.51824e-009
+    20	1.51823e-009
+    21	1.51821e-009
+    22	1.51819e-009
+    23	1.51817e-009
+    24	1.51816e-009
+    25	1.51814e-009
+    26	1.51812e-009
+    27	1.51811e-009
+    28	1.51809e-009
+    29	1.51808e-009
+    30	1.51806e-009
+    31	1.51804e-009
+    32	1.51803e-009
+    33	1.51801e-009
+    34	1.518e-009
+    35	1.51798e-009
+    36	1.51797e-009
+    37	1.51795e-009
+    38	1.51794e-009
+    39	1.51792e-009
+    40	1.51791e-009
+
+
+Date: Wed Apr 15 14:22:12 2015
+Total elapsed time: 30.934 seconds.
+
+tnom = 27
+temp = 25
+method = modified trap
+totiter = 2149
+traniter = 2135
+tranpoints = 1057
+accept = 1057
+rejected = 0
+matrix size = 152
+fillins = 57
+solver = Normal
+Matrix Compiler1: 32.7 KB object code size  19.9/19.5/[7.2]
+Matrix Compiler2: 21.7 KB object code size  9.1/9.2/[4.7]
+
+

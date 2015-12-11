@@ -1,0 +1,24 @@
+# PlanAhead Generated physical constraints 
+
+# GCLK
+NET "clk" LOC = L15;
+
+# LED Bank
+NET "digit_1[0]" LOC = U18;
+NET "digit_1[1]" LOC = M14;
+NET "digit_1[2]" LOC = N14;
+NET "digit_1[3]" LOC = L14;
+NET "digit_2[0]" LOC = M13;
+NET "digit_2[1]" LOC = D4;
+NET "digit_2[2]" LOC = P16;
+NET "digit_2[3]" LOC = N12;
+
+# Switches
+NET "max_count[0]" LOC = A10;
+NET "max_count[1]" LOC = D14;
+NET "max_count[2]" LOC = C14;
+NET "max_count[3]" LOC = P15;
+NET "max_count[4]" LOC = P12;
+NET "max_count[5]" LOC = R5;
+NET "max_count[6]" LOC = T5;
+NET "run" LOC = E4;

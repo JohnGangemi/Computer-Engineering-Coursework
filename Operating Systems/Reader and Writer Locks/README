@@ -1,0 +1,20 @@
+Authors: John Gangemi & Raj Patel
+
+Compilation:
+1. Open the terminal and locate the directory named 'project4', excluding the '' characters
+
+2. Type the command 'make' in the terminal to create an executable file, again excluding the '' characters
+
+3. Run the executable file by typing the following command in the terminal: 
+   ./rwlock <# of reader threads> <# of writer threads>
+
+   Example: ./rwlock 4 3 (statement would create 4 readers and 3 writers)
+
+Notes:
+The "rwlock" program accepts 2 command line arguments and will terminate appropriately
+if the condition is not satisfied. 
+
+--Linux Kernal --
+2.6.32-431.23.3.el6.x86 64
+
+Date created November 25, 2014

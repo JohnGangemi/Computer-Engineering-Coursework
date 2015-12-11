@@ -1,0 +1,140 @@
+C:\Users\John Gangemi\Documents\Visual Studio 2015\Projects\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\John Gangemi\Documents\Visual Studio 2015\Projects\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\John Gangemi\Documents\Visual Studio 2015\Projects\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\John Gangemi\Documents\Visual Studio 2015\Projects\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\John Gangemi\Documents\Visual Studio 2015\Projects\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\John Gangemi\Documents\Visual Studio 2015\Projects\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\John Gangemi\Documents\Visual Studio 2015\Projects\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\John Gangemi\Documents\Visual Studio 2015\Projects\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\John Gangemi\Documents\Computer Engineering Courses\Summer 2015\VLSI Design Automation\Parser_WFA_June 11th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\John Gangemi\Documents\Computer Engineering Courses\Summer 2015\VLSI Design Automation\Parser_WFA_June 11th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\John Gangemi\Documents\Computer Engineering Courses\Summer 2015\VLSI Design Automation\Parser_WFA_June 11th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\John Gangemi\Documents\Computer Engineering Courses\Summer 2015\VLSI Design Automation\Parser_WFA_June 11th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\John Gangemi\Documents\Computer Engineering Courses\Summer 2015\VLSI Design Automation\Parser_WFA_June 11th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\John Gangemi\Documents\Computer Engineering Courses\Summer 2015\VLSI Design Automation\Parser_WFA_June 11th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\John Gangemi\Documents\Computer Engineering Courses\Summer 2015\VLSI Design Automation\Parser_WFA_June 11th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\John Gangemi\Documents\Computer Engineering Courses\Summer 2015\VLSI Design Automation\Parser_WFA_June 11th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Downloads\Parser_WFA_June 12th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\johngangemi\Downloads\Parser_WFA_June 13th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\Steven\Documents\VLSI Design Automation\Project Code\Parser_WFA_June 15th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\Steven\Documents\VLSI Design Automation\Project Code\Parser_WFA_June 15th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\Steven\Documents\VLSI Design Automation\Project Code\Parser_WFA_June 15th\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\Steven\Documents\VLSI Design Automation\Project Code\Parser_WFA_June 15th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\VLSI Design Automation\Project Code\Parser_WFA_June 15th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\Steven\Documents\VLSI Design Automation\Project Code\Parser_WFA_June 15th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\Steven\Documents\VLSI Design Automation\Project Code\Parser_WFA_June 15th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\Steven\Documents\VLSI Design Automation\Project Code\Parser_WFA_June 15th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\Steven\Documents\VLSI Design Automation\Project Code\Parser_WFA_June 15th\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\johngangemi\Desktop\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\johngangemi\Desktop\Parser_WFA_sliceedit July 11th\Parser_WFA_sliceedit July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\johngangemi\Desktop\Parser_WFA_sliceedit July 11th\Parser_WFA_sliceedit July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Parser_WFA_sliceedit July 11th\Parser_WFA_sliceedit July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Parser_WFA_sliceedit July 11th\Parser_WFA_sliceedit July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Parser_WFA_sliceedit July 11th\Parser_WFA_sliceedit July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Parser_WFA_sliceedit July 11th\Parser_WFA_sliceedit July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+C:\Users\johngangemi\Desktop\Parser_WFA_sliceedit July 11th\Parser_WFA_sliceedit July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\johngangemi\Desktop\Parser_WFA_sliceedit July 11th\Parser_WFA_sliceedit July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\johngangemi\Desktop\Parser_WFA_sliceedit July 11th\Parser_WFA_sliceedit July 11th\Parser_WFA_July_3\Parser_WFA_July_3\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\jgangemi\Desktop\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\jgangemi\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\jgangemi\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\jgangemi\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\jgangemi\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\jgangemi\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\jgangemi\Desktop\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\jgangemi\Desktop\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th Fixed Partition Class\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th Fixed Partition Class\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th Fixed Partition Class\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th Fixed Partition Class\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th Fixed Partition Class\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th Fixed Partition Class\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th Fixed Partition Class\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th Fixed Partition Class\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th Fixed Partition Class\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan Progress\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan Progress\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan Progress\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan Progress\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan Progress\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan Progress\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan Progress\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan Progress\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan Progress\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan complete\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan complete\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan complete\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+G:\Users\Steven\Documents\VLSI Design Automation\Parser_WFA July 13th FloorPlan complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\johngangemi\Desktop\Parser_WFA July 16th FloorPlan and Print complete\Parser_WFA July 13th FloorPlan and Print complete\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\johngangemi\Desktop\Parser_WFA July 16th FloorPlan and Print complete\Parser_WFA July 13th FloorPlan and Print complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Parser_WFA July 16th FloorPlan and Print complete\Parser_WFA July 13th FloorPlan and Print complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Parser_WFA July 16th FloorPlan and Print complete\Parser_WFA July 13th FloorPlan and Print complete\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Parser_WFA July 16th FloorPlan and Print complete\Parser_WFA July 13th FloorPlan and Print complete\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Parser_WFA July 16th FloorPlan and Print complete\Parser_WFA July 13th FloorPlan and Print complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\johngangemi\Desktop\Parser_WFA July 16th FloorPlan and Print complete\Parser_WFA July 13th FloorPlan and Print complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\johngangemi\Desktop\Parser_WFA July 16th FloorPlan and Print complete\Parser_WFA July 13th FloorPlan and Print complete\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\johngangemi\Desktop\Updates Parser\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\johngangemi\Desktop\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Updates Parser\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\johngangemi\Desktop\Updates Parser\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\johngangemi\Desktop\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+C:\Users\johngangemi\Desktop\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\johngangemi\Desktop\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\johngangemi\Desktop\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\Steven\Documents\VLSI Design Automation\Updates Parser _ MUX No Work Brah\Updates Parser\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\Steven\Documents\VLSI Design Automation\Updates Parser _ MUX No Work Brah\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\Steven\Documents\VLSI Design Automation\Updates Parser _ MUX No Work Brah\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\Steven\Documents\VLSI Design Automation\Updates Parser _ MUX No Work Brah\Updates Parser\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\Steven\Documents\VLSI Design Automation\Updates Parser _ MUX No Work Brah\Updates Parser\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\Steven\Documents\VLSI Design Automation\Updates Parser _ MUX No Work Brah\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\Steven\Documents\VLSI Design Automation\Updates Parser _ MUX No Work Brah\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\Steven\Documents\VLSI Design Automation\Updates Parser _ MUX No Work Brah\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache
+C:\Users\Steven\Documents\VLSI Design Automation\Updates Parser _ MUX No Work Brah\Updates Parser\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe.config
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.exe
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.pdb
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.exe
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\bin\Debug\Parser_WFA.pdb
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.main_window.resources
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.Properties.Resources.resources
+C:\Users\Steven\Desktop\Parser_WFA\Parser_WFA\obj\Debug\Parser_WFA.csproj.GenerateResource.Cache

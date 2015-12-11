@@ -1,0 +1,43 @@
+John Gangemi
+U6871-4612
+CDA3103
+ProblemSet 4
+
+Question 1
+
+multiply, LoadI b    /use value of b as pointer to mem location of data, send to AC
+Skipcond 800    /check if AC value is > 0
+Jump endMultiply    /if AC value is not > 0 then set PC to 00B
+Subt one    /subtract from the accumulator using value of one
+StoreI b    /store value of AC in the mem location pointed to by b
+Clear    /clear the contents of the AC, sets it to zero
+LoadI product    /use value of product as pointer to mem location of data, send to AC
+AddI a    /increment AC using value pointed to by a
+StoreI product    /store value of AC in the mem location pointed to by product
+Clear    /clear the contents of the AC, sets it to zero
+Jump multiply    /set PC to 000
+endMultiply, LoadI product    /use value of product as pointer to mem location of data
+Output    /display the contents of AC
+HALT 
+a, Hex 012    /pointer to address with decimal value
+b, Hex 013    /pointer to address with decimal value
+product, Hex 014    /pointer to address with decimal value
+one, Dec 1    /variable representing the decimal value 1
+Dec 2    /memory location that holds value of a
+Dec 7    /memory location that holds value of b
+Dec 0    /memory location that holds value of product
+
+Question 2
+
+1. Where is the result stored when multiply performs this computation?
+
+- The result of the multiply subroutine is stored in memory location '014' (hex) that is pointed to by variable
+"product" of memory address '010' (hex) and initialized by the Accumulator register's value for the given
+instruction.
+
+2. How is this program similar or different to a Java method that would take two integers
+and multiply them? How do you think Java passes arguments?
+
+- In Java, arguments are passed-by-value to a function (method) using Indirect addressing and pointers. Similar 
+to the subroutine written in assembly code with instructions defined in the MARIE architecture, the values
+of a and b are accessed using pointers to memory locations holding the data.

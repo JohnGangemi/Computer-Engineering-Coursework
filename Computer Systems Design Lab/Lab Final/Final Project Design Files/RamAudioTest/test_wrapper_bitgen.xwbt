@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\CSD Final Project\Audio Control with Switches\RamAudioTest\test_wrapper.ncd
+OUTFILE=E:\CSD Final Project\Audio Control with Switches\RamAudioTest\test_wrapper.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=E:\CSD Final Project\Audio Control with Switches\RamAudioTest
+LICENSE=ISE
+USER_INFO=176513789_179783152_205892243_264

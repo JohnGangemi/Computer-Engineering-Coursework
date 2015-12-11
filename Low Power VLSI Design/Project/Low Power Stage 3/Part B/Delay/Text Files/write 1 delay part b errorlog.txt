@@ -1,0 +1,27 @@
+Circuit: * C:\Users\Family\Desktop\LowPower Stage 3\part b\Stage 3 partB Write 1 Delay.asc
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration for .op point succeeded.
+
+point_b: v(vr2)=0.05v AT 2.15541e-009
+
+
+Date: Wed Apr 15 15:16:17 2015
+Total elapsed time: 0.661 seconds.
+
+tnom = 27
+temp = 25
+method = modified trap
+totiter = 2163
+traniter = 2142
+tranpoints = 1057
+accept = 1057
+rejected = 0
+matrix size = 159
+fillins = 52
+solver = Normal
+Thread vector: 308.1/162.6[2] 29.7/16.2[2] 8.6/6.0[2] 6.7/648.9[1]  2592/500
+Matrix Compiler1: 32.5 KB object code size  21.8/17.6/[15.2]
+Matrix Compiler2: 22.8 KB object code size  10.5/13.4/[8.0]
+
+

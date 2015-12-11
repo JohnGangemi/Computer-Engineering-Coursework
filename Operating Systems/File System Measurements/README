@@ -1,0 +1,31 @@
+Authors: John Gangemi & Raj Patel
+
+Compilation:
+1. Open the terminal and locate the directory named 'project5', excluding the '' characters
+
+2. Type the command 'make' in the terminal to create an executable file, again excluding the '' characters
+
+3. Run the executable file by typing the following command in the terminal: ./p5 
+
+Notes:
+Execution of the program will 'hang' for 10 seconds initially as this is the time required to test
+the accuracy of two timers (rdtsc & gettimeofday). Afterwards, all code snippets will complete and
+print their respective results to the terminal.
+
+Two files referenced in code:
+name - imgA.jpg
+size - 38661041 bytes (36.9 MB)
+
+name - imgB.jpg
+size - 28470247 bytes (27.2 MB)
+
+*Files were taken from public domain
+
+System specifications (C4LAB09):
+cpu - Intel i7-2600K 3.4 GHz 8MB L3 
+file system - ext2/ext3
+
+--Linux Kernal --
+2.6.32-431.23.3.el6.x86 64
+
+Date created November 26, 2014

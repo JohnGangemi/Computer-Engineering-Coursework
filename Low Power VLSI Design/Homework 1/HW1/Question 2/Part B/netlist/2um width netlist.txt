@@ -1,0 +1,15 @@
+* C:\Program Files (x86)\LTC\LTspiceIV\q2_b.asc
+M1 n1 Vout 0 0 NMOS l=.03u w=S
+M2 n2 n1 0 0 NMOS l=.03u w=S
+M3 Vout n2 0 0 NMOS l=.03u w=S
+M4 Vdd Vout n1 Vdd PMOS l=.03u w=S
+M5 Vdd n1 n2 Vdd PMOS l=.03u w=S
+M6 Vdd n2 Vout Vdd PMOS l=.03u w=S
+V2 Vdd 0 1
+.tran 100n
+.include 'C:\Users\Johne\Documents\models\22nm_lp.file.txt'
+.param S 2um
+.ic V(Vout) = 1
+.measure tran trise trig V(Vout) val=0.5 fall=1 targ V(Vout) val=0.5 rise=1
+.backanno
+.end

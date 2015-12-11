@@ -1,0 +1,152 @@
+Circuit: * C:\Users\Family\Desktop\LowPower Stage 3\Stage 3 Write 0 Delay Part C.asc
+
+Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored.
+Direct Newton iteration for .op point succeeded.
+.step n_width=1e-007
+.step n_width=2e-007
+.step n_width=3e-007
+.step n_width=4e-007
+.step n_width=5e-007
+.step n_width=6e-007
+.step n_width=7e-007
+.step n_width=8e-007
+.step n_width=9e-007
+.step n_width=1e-006
+.step n_width=1.1e-006
+.step n_width=1.2e-006
+.step n_width=1.3e-006
+.step n_width=1.4e-006
+.step n_width=1.5e-006
+.step n_width=1.6e-006
+.step n_width=1.7e-006
+.step n_width=1.8e-006
+.step n_width=1.9e-006
+.step n_width=2e-006
+.step n_width=2.1e-006
+.step n_width=2.2e-006
+.step n_width=2.3e-006
+.step n_width=2.4e-006
+.step n_width=2.5e-006
+.step n_width=2.6e-006
+.step n_width=2.7e-006
+.step n_width=2.8e-006
+.step n_width=2.9e-006
+.step n_width=3e-006
+.step n_width=3.1e-006
+.step n_width=3.2e-006
+.step n_width=3.3e-006
+.step n_width=3.4e-006
+.step n_width=3.5e-006
+.step n_width=3.6e-006
+.step n_width=3.7e-006
+.step n_width=3.8e-006
+.step n_width=3.9e-006
+.step n_width=4e-006
+
+
+Measurement: pmos_width
+  step	p_width
+     1	2e-007
+     2	4e-007
+     3	6e-007
+     4	8e-007
+     5	1e-006
+     6	1.2e-006
+     7	1.4e-006
+     8	1.6e-006
+     9	1.8e-006
+    10	2e-006
+    11	2.2e-006
+    12	2.4e-006
+    13	2.6e-006
+    14	2.8e-006
+    15	3e-006
+    16	3.2e-006
+    17	3.4e-006
+    18	3.6e-006
+    19	3.8e-006
+    20	4e-006
+    21	4.2e-006
+    22	4.4e-006
+    23	4.6e-006
+    24	4.8e-006
+    25	5e-006
+    26	5.2e-006
+    27	5.4e-006
+    28	5.6e-006
+    29	5.8e-006
+    30	6e-006
+    31	6.2e-006
+    32	6.4e-006
+    33	6.6e-006
+    34	6.8e-006
+    35	7e-006
+    36	7.2e-006
+    37	7.4e-006
+    38	7.6e-006
+    39	7.8e-006
+    40	8e-006
+
+Measurement: point_b
+  step	v(vl2)=0.05v
+     1	1.54125e-009
+     2	1.53294e-009
+     3	1.52771e-009
+     4	1.52453e-009
+     5	1.52246e-009
+     6	1.52102e-009
+     7	1.52001e-009
+     8	1.51924e-009
+     9	1.51864e-009
+    10	1.51819e-009
+    11	1.51782e-009
+    12	1.51752e-009
+    13	1.51727e-009
+    14	1.51706e-009
+    15	1.51688e-009
+    16	1.51672e-009
+    17	1.51659e-009
+    18	1.51647e-009
+    19	1.51637e-009
+    20	1.51628e-009
+    21	1.5162e-009
+    22	1.51613e-009
+    23	1.51607e-009
+    24	1.51602e-009
+    25	1.51597e-009
+    26	1.51592e-009
+    27	1.51588e-009
+    28	1.51584e-009
+    29	1.51581e-009
+    30	1.51578e-009
+    31	1.51575e-009
+    32	1.51572e-009
+    33	1.51569e-009
+    34	1.51567e-009
+    35	1.51565e-009
+    36	1.51563e-009
+    37	1.51561e-009
+    38	1.51559e-009
+    39	1.51558e-009
+    40	1.51556e-009
+
+
+Date: Wed Apr 15 01:11:59 2015
+Total elapsed time: 25.350 seconds.
+
+tnom = 27
+temp = 25
+method = modified trap
+totiter = 2201
+traniter = 2187
+tranpoints = 1057
+accept = 1057
+rejected = 0
+matrix size = 169
+fillins = 52
+solver = Normal
+Thread vector: 308.1/180.3[2] 32.5/18.7[2] 9.6/6.5[2] 5.6/4.1[2]  2592/500
+Matrix Compiler1: 35.2 KB object code size  22.5/17.7/[6.9]
+Matrix Compiler2: 23.9 KB object code size  10.0/9.5/[4.9]
+
+

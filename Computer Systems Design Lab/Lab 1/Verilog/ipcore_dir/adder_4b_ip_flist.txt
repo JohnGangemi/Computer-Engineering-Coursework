@@ -1,0 +1,14 @@
+# Output products list for <adder_4b_ip>
+adder_4b_ip.asy
+adder_4b_ip.gise
+adder_4b_ip.ngc
+adder_4b_ip.sym
+adder_4b_ip.v
+adder_4b_ip.veo
+adder_4b_ip.xco
+adder_4b_ip.xise
+adder_4b_ip\doc\c_addsub_v11_0_readme.txt
+adder_4b_ip\doc\c_addsub_v11_0_vinfo.html
+adder_4b_ip\doc\ds214_addsub.pdf
+adder_4b_ip_flist.txt
+adder_4b_ip_xmdf.tcl
