@@ -1,0 +1,40 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/j/johngangemi/cmos05/DesignLib/XOR/schematic/sch.oa
+$ Netlist Time: Oct  8 13:16:53 2014
+$****************************************************************************
+
+
+$****************************************************************************
+$ GLOBAL Net Declarations
+$****************************************************************************
+.GLOBAL gnd vdd
+
+
+$****************************************************************************
+$ MODEL Declarations
+$****************************************************************************
+$.model nmos nmos level=2 vto=0.7 gamma=0.2 kp=3e-05 lambda=0.02 tox=6e-07
+$.model pmos pmos level=2 vto=-0.7 gamma=0.4 kp=1.5e-05 lambda=0.03 tox=6e-07
+
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: XOR
+$ Last Time Saved: Oct  8 13:11:55 2014
+$****************************************************************************
+mxm12 z net14 vdd vdd pmos w=2.70 l=0.60
+mxm10 net19 b vdd vdd pmos w=2.70 l=0.60
+mxm8 net8 a vdd vdd pmos w=2.70 l=0.60
+mxm3 net14 b net16 vdd pmos w=2.70 l=0.60
+mxm2 net16 net19 vdd vdd pmos w=2.70 l=0.60
+mxm1 net14 net8 net16 vdd pmos w=2.70 l=0.60
+mxm0 net16 a vdd vdd pmos w=2.70 l=0.60
+mxm13 z net14 gnd gnd nmos w=1.20 l=0.60
+mxm11 net19 b gnd gnd nmos w=1.20 l=0.60
+mxm9 net8 a gnd gnd nmos w=1.20 l=0.60
+mxm7 net26 a gnd gnd nmos w=1.20 l=0.60
+mxm6 net27 b gnd gnd nmos w=1.20 l=0.60
+mxm5 net14 net19 net26 gnd nmos w=1.20 l=0.60
+mxm4 net14 net8 net27 gnd nmos w=1.20 l=0.60

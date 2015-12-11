@@ -1,0 +1,85 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/j/johngangemi/cmos05/DesignLib/XOR_3/extracted/layout.oa
+$ Netlist Time: Oct 10 18:32:13 2014
+$****************************************************************************
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: XOR_3
+$ Last Time Saved: Oct 10 18:30:57 2014
+$****************************************************************************
+mx17 z n10 vdd vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx16 n10 n9 vdd vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx15 n9 n8 vdd vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx14 n11 b n8 vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx13 n8 n6 n11 vdd pfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx12 vdd n7 n11 vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx11 n11 a vdd vdd pfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx10 n7 b vdd vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx9 n6 a vdd vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+cx62 gnd n10 1.07136e-15
+cx61 gnd n9 1.07136e-15
+cx60 gnd n8 1.07136e-15
+cx59 gnd n7 1.05462e-15
+cx58 gnd n6 1.05462e-15
+cx57 b gnd 2.07576e-15
+cx56 a gnd 2.02554e-15
+cx55 vdd n10 1.3392e-16
+cx54 vdd n9 1.3392e-16
+cx53 vdd n8 1.3392e-16
+cx52 vdd n7 1.3392e-16
+cx51 vdd n6 1.3392e-16
+cx50 vdd b 2.6784e-16
+cx49 vdd a 4.185e-16
+cx48 n7 n11 2.7e-16
+cx47 n6 n8 2.7e-16
+cx46 gnd n11 1.04064e-15
+cx45 gnd n10 3.49044e-15
+cx44 gnd n9 3.49044e-15
+cx43 gnd n8 5.25804e-15
+cx42 gnd n7 3.28704e-15
+cx41 gnd n6 3.28704e-15
+cx40 z gnd 3.28704e-15
+cx39 b n8 5.4e-16
+cx38 vdd n11 1.32912e-15
+cx37 vdd n10 4.4736e-16
+cx36 vdd n9 4.4736e-16
+cx35 vdd n8 8.688e-16
+cx34 vdd n7 4.4736e-16
+cx33 vdd n6 4.4736e-16
+cx32 vdd z 4.4736e-16
+cx31 n8 n11 3.3288e-16
+cx30 n6 n11 1.8864e-16
+cx29 n6 n7 5.064e-16
+cx28 gnd n7 6.0144e-16
+cx27 gnd n6 1.63248e-15
+cx26 b n11 1.8864e-16
+cx25 b n7 5.064e-16
+cx24 b n6 3.7728e-16
+cx23 b gnd 1.5036e-15
+cx22 a n7 5.064e-16
+cx21 a n6 5.064e-16
+cx20 a gnd 5.472e-16
+cx19 a b 3.7728e-16
+cx18 vdd a 5.472e-16
+mx8 z n10 gnd gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.8e-12 pd=4.2e-06 ps=4.2e-06
+mx7 n10 n9 gnd gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.8e-12 pd=4.2e-06
++ps=4.2e-06
+mx6 n9 n8 gnd gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.8e-12 pd=4.2e-06 ps=4.2e-06
+mx5 n8 b n13 gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=5.4e-13 pd=4.2e-06 ps=9e-07
+mx4 n13 n6 gnd gnd nfet w=1.2 l=0.6 ad=5.4e-13 as=1.8e-12 pd=9e-07 ps=4.2e-06
+mx3 n8 n7 n12 gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=5.4e-13 pd=4.2e-06 ps=9e-07
+mx2 n12 a gnd gnd nfet w=1.2 l=0.6 ad=5.4e-13 as=1.8e-12 pd=9e-07 ps=4.2e-06
+mx1 n7 b gnd gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.8e-12 pd=4.2e-06 ps=4.2e-06
+mx0 n6 a gnd gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.8e-12 pd=4.2e-06 ps=4.2e-06

@@ -1,0 +1,32 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/j/johngangemi/cmos05/DesignLib/Lab2C_NOR/extracted/layout.oa
+$ Netlist Time: Sep 25 13:33:08 2014
+$****************************************************************************
+
+
+$****************************************************************************
+$ MODEL Declarations
+$****************************************************************************
+$.model nfet nmos level=2 vto=0.7 gamma=0.2 kp=3e-05 lambda=0.02 tox=6e-07
+$.model pfet pmos level=2 vto=-0.7 gamma=0.4 kp=1.5e-05 lambda=0.03 tox=6e-07
+
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: Lab2C_NOR
+$ Last Time Saved: Sep 25 13:32:13 2014
+$****************************************************************************
+mx3 vdd b n6 vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06 ps=9e-07
+mx2 n6 a z vdd pfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07 ps=5.7e-06
+cx11 b gnd 1.3392e-16
+cx10 a gnd 1.3392e-16
+cx9 vdd b 1.3392e-16
+cx8 vdd a 1.8414e-16
+cx7 gnd z 1.20348e-15
+cx6 b z 2.217e-16
+cx5 a z 4.149e-16
+cx4 vdd z 2.8284e-16
+mx1 z b gnd gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.08e-12 pd=4.2e-06 ps=1.8e-06
+mx0 gnd a z gnd nfet w=1.2 l=0.6 ad=1.08e-12 as=1.8e-12 pd=1.8e-06 ps=4.2e-06

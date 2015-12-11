@@ -1,0 +1,66 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/j/johngangemi/cmos05/DesignLib/Comparator/schematic/sch.oa
+$ Netlist Time: Oct  8 17:36:41 2014
+$****************************************************************************
+
+
+$****************************************************************************
+$ GLOBAL Net Declarations
+$****************************************************************************
+.GLOBAL gnd vdd
+
+
+$****************************************************************************
+$ MODEL Declarations
+$****************************************************************************
+$.model nmos nmos level=2 vto=0.7 gamma=0.2 kp=3e-05 lambda=0.02 tox=6e-07
+$.model pmos pmos level=2 vto=-0.7 gamma=0.4 kp=1.5e-05 lambda=0.03 tox=6e-07
+
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: Comparator
+$ Last Time Saved: Oct  8 17:35:52 2014
+$****************************************************************************
+mxm54 net069 xin vdd vdd pmos w=2.70 l=0.60
+mxm53 net069 b vdd vdd pmos w=2.70 l=0.60
+mxm52 net049 a vdd vdd pmos w=2.70 l=0.60
+mxm49 net072 net069 vdd vdd pmos w=2.70 l=0.60
+mxm50 net069 net049 vdd vdd pmos w=2.70 l=0.60
+mxm47 zout zin net072 vdd pmos w=2.70 l=0.60
+mxm27 yout yin net78 vdd pmos w=2.70 l=0.60
+mxm26 net78 net68 vdd vdd pmos w=2.70 l=0.60
+mxm25 net42 b vdd vdd pmos w=2.70 l=0.60
+mxm24 net68 xin vdd vdd pmos w=2.70 l=0.60
+mxm23 net68 net42 vdd vdd pmos w=2.70 l=0.60
+mxm22 net68 a vdd vdd pmos w=2.70 l=0.60
+mxm13 xout xin vdd vdd pmos w=2.70 l=0.60
+mxm12 xout net30 vdd vdd pmos w=2.70 l=0.60
+mxm5 net34 b vdd vdd pmos w=2.70 l=0.60
+mxm4 net017 a vdd vdd pmos w=2.70 l=0.60
+mxm3 net30 b net25 vdd pmos w=2.70 l=0.60
+mxm2 net30 a net25 vdd pmos w=2.70 l=0.60
+mxm1 net25 net34 vdd vdd pmos w=2.70 l=0.60
+mxm0 net25 net017 vdd vdd pmos w=2.70 l=0.60
+mxm46 net069 net049 net073 gnd nmos w=1.20 l=0.60
+mxm43 zout zin gnd gnd nmos w=1.20 l=0.60
+mxm48 net049 a gnd gnd nmos w=1.20 l=0.60
+mxm42 net074 b gnd gnd nmos w=1.20 l=0.60
+mxm45 net073 xin net074 gnd nmos w=1.20 l=0.60
+mxm44 zout net069 gnd gnd nmos w=1.20 l=0.60
+mxm21 yout yin gnd gnd nmos w=1.20 l=0.60
+mxm20 yout net68 gnd gnd nmos w=1.20 l=0.60
+mxm19 net42 b gnd gnd nmos w=1.20 l=0.60
+mxm18 net79 a gnd gnd nmos w=1.20 l=0.60
+mxm17 net80 xin net79 gnd nmos w=1.20 l=0.60
+mxm16 net68 net42 net80 gnd nmos w=1.20 l=0.60
+mxm15 net81 xin gnd gnd nmos w=1.20 l=0.60
+mxm14 xout net30 net81 gnd nmos w=1.20 l=0.60
+mxm11 net82 a gnd gnd nmos w=1.20 l=0.60
+mxm10 net30 b net82 gnd nmos w=1.20 l=0.60
+mxm9 net83 net34 gnd gnd nmos w=1.20 l=0.60
+mxm8 net30 net017 net83 gnd nmos w=1.20 l=0.60
+mxm7 net34 b gnd gnd nmos w=1.20 l=0.60
+mxm6 net017 a gnd gnd nmos w=1.20 l=0.60

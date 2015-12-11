@@ -1,0 +1,163 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/h/holst/cmos05/DesignLib/std_dff2_l/extracted/layout.oa
+$ Netlist Time: Oct 17 13:22:20 2014
+$****************************************************************************
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: std_dff2_l
+$ Last Time Saved: Oct 17 13:21:52 2014
+$****************************************************************************
+mx35 q_not n11 vdd vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=5.13e-12 pd=8.7e-06
++ps=1.8e-06
+mx34 vdd clr_not q_not vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=5.13e-12 pd=1.8e-06
++ps=1.8e-06
+mx33 q_not q vdd vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=8.55e-12 pd=1.8e-06
++ps=8.7e-06
+mx32 q q_not vdd vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=5.13e-12 pd=8.7e-06
++ps=1.8e-06
+mx31 vdd n10 q vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=5.13e-12 pd=1.8e-06
++ps=1.8e-06
+mx30 q pre_not vdd vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=8.55e-12 pd=1.8e-06
++ps=8.7e-06
+mx29 n12 d vdd vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=5.13e-12 pd=8.7e-06
++ps=1.8e-06
+mx28 vdd clr_not n12 vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=5.13e-12 pd=1.8e-06
++ps=1.8e-06
+mx27 n12 n11 vdd vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=8.55e-12 pd=1.8e-06
++ps=8.7e-06
+mx26 n11 n12 vdd vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=5.13e-12 pd=8.7e-06
++ps=1.8e-06
+mx25 vdd clk n11 vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=5.13e-12 pd=1.8e-06
++ps=1.8e-06
+mx24 n11 n10 vdd vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=8.55e-12 pd=1.8e-06
++ps=8.7e-06
+mx23 n10 clk vdd vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=5.13e-12 pd=8.7e-06
++ps=1.8e-06
+mx22 vdd clr_not n10 vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=5.13e-12 pd=1.8e-06
++ps=1.8e-06
+mx21 n10 n9 vdd vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=8.55e-12 pd=1.8e-06
++ps=8.7e-06
+mx20 n9 n10 vdd vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=5.13e-12 pd=8.7e-06
++ps=1.8e-06
+mx19 vdd n12 n9 vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=5.13e-12 pd=1.8e-06
++ps=1.8e-06
+mx18 n9 pre_not vdd vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=8.55e-12 pd=1.8e-06
++ps=8.7e-06
+cx114 gnd n12 1.94184e-15
+cx113 gnd n11 1.94184e-15
+cx112 gnd n10 2.86254e-15
+cx111 gnd n9 9.207e-16
+cx110 gnd pre_not 1.8414e-15
+cx109 d gnd 9.8766e-16
+cx108 vdd n12 3.1806e-16
+cx107 vdd n11 2.6784e-16
+cx106 vdd n10 4.5198e-16
+cx105 vdd n9 1.3392e-16
+cx104 vdd pre_not 2.6784e-16
+cx103 vdd d 1.3392e-16
+cx102 clr_not gnd 2.7621e-15
+cx101 clr_not vdd 5.5242e-16
+cx100 clk gnd 1.94184e-15
+cx99 clk vdd 3.1806e-16
+cx98 q_not gnd 1.02114e-15
+cx97 q_not vdd 1.3392e-16
+cx96 q gnd 9.207e-16
+cx95 q vdd 1.3392e-16
+cx94 gnd n12 3.32226e-15
+cx93 gnd n11 3.32226e-15
+cx92 gnd n10 3.32226e-15
+cx91 gnd n9 3.32226e-15
+cx90 vdd n12 4.4736e-16
+cx89 vdd n11 4.4736e-16
+cx88 vdd n10 4.4736e-16
+cx87 vdd n9 4.4736e-16
+cx86 q_not gnd 3.32226e-15
+cx85 q_not vdd 4.4736e-16
+cx84 q gnd 3.32226e-15
+cx83 q vdd 4.4736e-16
+cx82 n11 n12 1.5087e-15
+cx81 n10 n12 1.20144e-15
+cx80 n10 n11 6.9504e-16
+cx79 n9 n12 1.19094e-15
+cx78 n9 n10 1.19094e-15
+cx77 pre_not n12 6.9504e-16
+cx76 pre_not n11 6.9504e-16
+cx75 pre_not n10 8.8368e-16
+cx74 pre_not n9 5.064e-16
+cx73 gnd n12 2.92128e-15
+cx72 gnd n11 2.44872e-15
+cx71 gnd n10 3.222e-15
+cx70 gnd n9 2.148e-16
+cx69 gnd pre_not 3.60864e-15
+cx68 d n12 1.43424e-15
+cx67 d n11 6.9504e-16
+cx66 d n10 1.06746e-15
+cx65 d n9 5.064e-16
+cx64 d pre_not 3.7728e-16
+cx63 d gnd 3.04608e-15
+cx62 vdd n12 1.07718e-15
+cx61 vdd n11 1.07718e-15
+cx60 vdd n10 1.07718e-15
+cx59 vdd n9 1.07718e-15
+cx58 clr_not n12 1.56822e-15
+cx57 clr_not n11 8.8368e-16
+cx56 clr_not n10 1.75686e-15
+cx55 clr_not pre_not 5.6592e-16
+cx54 clr_not gnd 3.4368e-15
+cx53 clr_not d 5.6592e-16
+cx52 clk n12 3.7728e-16
+cx51 clk n11 6.8454e-16
+cx50 clk n10 1.56822e-15
+cx49 clk pre_not 3.7728e-16
+cx48 clk gnd 5.5848e-16
+cx47 clk d 5.6106e-16
+cx46 clk clr_not 3.7728e-16
+cx45 q_not n11 1.06182e-15
+cx44 q_not gnd 9.8808e-16
+cx43 q_not vdd 1.07718e-15
+cx42 q_not clr_not 1.06182e-15
+cx41 q n11 5.064e-16
+cx40 q n10 6.8454e-16
+cx39 q gnd 2.148e-16
+cx38 q vdd 1.07718e-15
+cx37 q clr_not 5.064e-16
+cx36 q q_not 1.19094e-15
+mx17 q_not n11 n24 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx16 n24 clr_not n23 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx15 n23 q gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx14 q q_not n22 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx13 n22 n10 n21 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx12 n21 pre_not gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx11 n12 d n20 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx10 n20 clr_not n19 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx9 n19 n11 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx8 n11 n12 n18 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx7 n18 clk n17 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx6 n17 n10 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx5 n10 clk n16 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx4 n16 clr_not n15 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx3 n15 n9 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx2 n9 n10 n14 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx1 n14 n12 n13 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx0 n13 pre_not gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06

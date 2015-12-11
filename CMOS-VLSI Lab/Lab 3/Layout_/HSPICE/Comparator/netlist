@@ -1,0 +1,161 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/h/holst/cmos05/DesignLib/comp_l/extracted/layout.oa
+$ Netlist Time: Oct 10 18:51:45 2014
+$****************************************************************************
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: comp_l
+$ Last Time Saved: Oct 10 18:51:09 2014
+$****************************************************************************
+mx35 zout zin n25 vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx34 n25 n15 vdd vdd pfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx33 n15 xin vdd vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx32 vdd b n15 vdd pfet w=2.7 l=0.6 ad=2.43e-12 as=2.43e-12 pd=1.8e-06
++ps=1.8e-06
+mx31 n15 n11 vdd vdd pfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx30 yout yin n24 vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx29 n24 n14 vdd vdd pfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx28 n14 n12 vdd vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx27 vdd xin n14 vdd pfet w=2.7 l=0.6 ad=2.43e-12 as=2.43e-12 pd=1.8e-06
++ps=1.8e-06
+mx26 n14 a vdd vdd pfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx25 vdd xin xout vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx24 xout n13 vdd vdd pfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx23 n16 n12 n13 vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx22 n13 n11 n16 vdd pfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx21 vdd b n16 vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx20 n16 a vdd vdd pfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx19 n12 b vdd vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx18 n11 a vdd vdd pfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+cx122 gnd n15 1.10484e-15
+cx121 gnd n14 1.1718e-15
+cx120 gnd n13 1.1718e-15
+cx119 gnd n12 2.74536e-15
+cx118 gnd n11 2.3436e-15
+cx117 b gnd 3.48192e-15
+cx116 a gnd 3.5154e-15
+cx115 vdd n15 1.8414e-16
+cx114 vdd n14 1.8414e-16
+cx113 vdd n13 1.3392e-16
+cx112 vdd n12 3.1806e-16
+cx111 vdd n11 2.6784e-16
+cx110 vdd b 5.022e-16
+cx109 vdd a 4.0176e-16
+cx108 xin gnd 3.95064e-15
+cx107 xin vdd 5.022e-16
+cx106 zin gnd 1.03788e-15
+cx105 zin vdd 1.3392e-16
+cx104 yin gnd 1.03788e-15
+cx103 yin vdd 1.3392e-16
+cx102 n12 n14 1.68435e-15
+cx101 n12 n13 2.9748e-15
+cx100 n11 n13 2.7e-16
+cx99 gnd n15 3.34464e-15
+cx98 gnd n14 3.46296e-15
+cx97 gnd n13 3.34254e-15
+cx96 gnd n12 3.642e-15
+cx95 gnd n11 3.642e-15
+cx94 b n15 4.149e-16
+cx93 xout gnd 2.25174e-15
+cx92 vdd n15 1.16094e-15
+cx91 vdd n14 1.16094e-15
+cx90 vdd n13 3.1242e-16
+cx89 vdd n12 4.4736e-16
+cx88 vdd n11 4.4736e-16
+cx87 vdd xout 3.1242e-16
+cx86 xin n15 1.95435e-15
+cx85 xin n14 4.149e-16
+cx84 xin xout 2.9748e-15
+cx83 zout gnd 3.99696e-15
+cx82 zout vdd 4.4736e-16
+cx81 zout zin 2.7e-16
+cx80 yout gnd 3.99696e-15
+cx79 yout vdd 4.4736e-16
+cx78 yin yout 2.7e-16
+cx77 n13 n16 5.8098e-16
+cx76 n12 n16 3.5394e-16
+cx75 n12 n14 3.1776e-16
+cx74 n12 n13 5.064e-16
+cx73 n11 n16 3.5394e-16
+cx72 n11 n14 5.064e-16
+cx71 n11 n13 5.064e-16
+cx70 n11 n12 6.9504e-16
+cx69 gnd n15 4.7256e-16
+cx68 gnd n14 3.4368e-16
+cx67 gnd n13 5.5848e-16
+cx66 gnd n12 3.06276e-15
+cx65 gnd n11 4.38192e-15
+cx64 b n16 3.5394e-16
+cx63 b n14 5.064e-16
+cx62 b n13 5.064e-16
+cx61 b n12 6.9504e-16
+cx60 b n11 7.5456e-16
+cx59 b gnd 4.296e-15
+cx58 a n13 1.60656e-15
+cx57 a n12 6.9504e-16
+cx56 a n11 6.9504e-16
+cx55 a gnd 1.76136e-15
+cx54 a b 7.5456e-16
+cx53 xout n12 3.1776e-16
+cx52 xout n11 3.1776e-16
+cx51 xout b 3.1776e-16
+cx50 xout a 5.4696e-16
+cx49 vdd n16 8.0061e-16
+cx48 xin n15 3.1776e-16
+cx47 xin n14 5.064e-16
+cx46 xin n12 1.8864e-16
+cx45 xin n11 3.7728e-16
+cx44 xin gnd 2.25096e-15
+cx43 xin b 3.7728e-16
+cx42 xin a 1.8864e-16
+cx41 yout n11 3.1776e-16
+cx40 yout b 3.1776e-16
+cx39 yout xin 3.1776e-16
+cx38 yin n11 1.8864e-16
+cx37 yin b 1.8864e-16
+cx36 yin xin 1.8864e-16
+mx17 gnd zin zout gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.08e-12 pd=4.2e-06
++ps=1.8e-06
+mx16 zout n15 gnd gnd nfet w=1.2 l=0.6 ad=1.08e-12 as=1.8e-12 pd=1.8e-06
++ps=4.2e-06
+mx15 n15 xin n23 gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=5.4e-13 pd=4.2e-06
++ps=9e-07
+mx14 n23 b n22 gnd nfet w=1.2 l=0.6 ad=5.4e-13 as=5.4e-13 pd=9e-07 ps=9e-07
+mx13 n22 n11 gnd gnd nfet w=1.2 l=0.6 ad=5.4e-13 as=1.8e-12 pd=9e-07
++ps=4.2e-06
+mx12 gnd yin yout gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.08e-12 pd=4.2e-06
++ps=1.8e-06
+mx11 yout n14 gnd gnd nfet w=1.2 l=0.6 ad=1.08e-12 as=1.8e-12 pd=1.8e-06
++ps=4.2e-06
+mx10 n14 n12 n21 gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=5.4e-13 pd=4.2e-06
++ps=9e-07
+mx9 n21 xin n20 gnd nfet w=1.2 l=0.6 ad=5.4e-13 as=5.4e-13 pd=9e-07 ps=9e-07
+mx8 n20 a gnd gnd nfet w=1.2 l=0.6 ad=5.4e-13 as=1.8e-12 pd=9e-07 ps=4.2e-06
+mx7 xout xin n19 gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=5.4e-13 pd=4.2e-06
++ps=9e-07
+mx6 n19 n13 gnd gnd nfet w=1.2 l=0.6 ad=5.4e-13 as=1.8e-12 pd=9e-07 ps=4.2e-06
+mx5 n13 n12 n18 gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=5.4e-13 pd=4.2e-06 ps=9e-07
+mx4 n18 n11 gnd gnd nfet w=1.2 l=0.6 ad=5.4e-13 as=1.8e-12 pd=9e-07 ps=4.2e-06
+mx3 n13 b n17 gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=5.4e-13 pd=4.2e-06 ps=9e-07
+mx2 n17 a gnd gnd nfet w=1.2 l=0.6 ad=5.4e-13 as=1.8e-12 pd=9e-07 ps=4.2e-06
+mx1 n12 b gnd gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.8e-12 pd=4.2e-06 ps=4.2e-06
+mx0 n11 a gnd gnd nfet w=1.2 l=0.6 ad=1.8e-12 as=1.8e-12 pd=4.2e-06 ps=4.2e-06

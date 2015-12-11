@@ -1,0 +1,38 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/j/johngangemi/cmos05/DesignLib/2to1_MUX/schematic/sch.oa
+$ Netlist Time: Oct  8 12:47:35 2014
+$****************************************************************************
+
+
+$****************************************************************************
+$ GLOBAL Net Declarations
+$****************************************************************************
+.GLOBAL gnd vdd
+
+
+$****************************************************************************
+$ MODEL Declarations
+$****************************************************************************
+$.model nmos nmos level=2 vto=0.7 gamma=0.2 kp=3e-05 lambda=0.02 tox=6e-07
+$.model pmos pmos level=2 vto=-0.7 gamma=0.4 kp=1.5e-05 lambda=0.03 tox=6e-07
+
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: 2to1_MUX
+$ Last Time Saved: Oct  8 12:46:53 2014
+$****************************************************************************
+mxm10 z net012 vdd vdd pmos w=2.70 l=0.60
+mxm5 net012 a net19 vdd pmos w=2.70 l=0.60
+mxm4 net19 b vdd vdd pmos w=2.70 l=0.60
+mxm3 net012 net11 net19 vdd pmos w=2.70 l=0.60
+mxm2 net19 s vdd vdd pmos w=2.70 l=0.60
+mxm0 net11 s vdd vdd pmos w=2.70 l=0.60
+mxm11 z net012 gnd gnd nmos w=1.20 l=0.60
+mxm9 net25 s gnd gnd nmos w=1.20 l=0.60
+mxm8 net012 b net25 gnd nmos w=1.20 l=0.60
+mxm7 net012 net11 net26 gnd nmos w=1.20 l=0.60
+mxm6 net26 a gnd gnd nmos w=1.20 l=0.60
+mxm1 net11 s gnd gnd nmos w=1.20 l=0.60

@@ -1,0 +1,22 @@
+;
+radix 1	1 	
+
+vname a	b 	
+
+io    i	i 	
+
+tunit ns
+
+slope 0.1
+
+vih   5.0 
+
+vil   0.0 	
+
+tdelay 0.1 	
+
+0 0 0 
+5 0 1 
+10 1 0
+15 1 1
+

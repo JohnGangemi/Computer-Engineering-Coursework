@@ -1,0 +1,76 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/j/johngangemi/cmos05/DesignLib/Adder_Subtr/schematic/sch.oa
+$ Netlist Time: Oct  9 17:26:47 2014
+$****************************************************************************
+
+
+$****************************************************************************
+$ GLOBAL Net Declarations
+$****************************************************************************
+.GLOBAL gnd vdd
+
+
+$****************************************************************************
+$ MODEL Declarations
+$****************************************************************************
+$.model nmos nmos level=2 vto=0.7 gamma=0.2 kp=3e-05 lambda=0.02 tox=6e-07
+$.model pmos pmos level=2 vto=-0.7 gamma=0.4 kp=1.5e-05 lambda=0.03 tox=6e-07
+
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: Adder_Subtr
+$ Last Time Saved: Oct  9 17:25:33 2014
+$****************************************************************************
+mxm110 sum net068 vdd vdd pmos w=2.70 l=0.60
+mxm108 net071 cin vdd vdd pmos w=2.70 l=0.60
+mxm107 net094 cin vdd vdd pmos w=2.70 l=0.60
+mxm106 net068 net071 net061 vdd pmos w=2.70 l=0.60
+mxm105 net061 cin vdd vdd pmos w=2.70 l=0.60
+mxm100 net094 net054 vdd vdd pmos w=2.70 l=0.60
+mxm99 net061 net062 vdd vdd pmos w=2.70 l=0.60
+mxm98 net068 net054 net061 vdd pmos w=2.70 l=0.60
+mxm64 net031 net038 vdd vdd pmos w=2.70 l=0.60
+mxm86 net054 net062 vdd vdd pmos w=2.70 l=0.60
+mxm118 cout net094 vdd vdd pmos w=2.70 l=0.60
+mxm121 cout net095 vdd vdd pmos w=2.70 l=0.60
+mxm27 net095 a vdd vdd pmos w=2.70 l=0.60
+mxm26 net095 net031 vdd vdd pmos w=2.70 l=0.60
+mxm21 net44 a vdd vdd pmos w=2.70 l=0.60
+mxm19 net062 net44 net32 vdd pmos w=2.70 l=0.60
+mxm18 net32 a vdd vdd pmos w=2.70 l=0.60
+mxm17 net32 net038 vdd vdd pmos w=2.70 l=0.60
+mxm16 net062 net031 net32 vdd pmos w=2.70 l=0.60
+mxm10 net24 b vdd vdd pmos w=2.70 l=0.60
+mxm9 net14 s vdd vdd pmos w=2.70 l=0.60
+mxm3 net038 b net15 vdd pmos w=2.70 l=0.60
+mxm2 net15 net24 vdd vdd pmos w=2.70 l=0.60
+mxm1 net038 net14 net15 vdd pmos w=2.70 l=0.60
+mxm0 net15 s vdd vdd pmos w=2.70 l=0.60
+mxm111 sum net068 gnd gnd nmos w=1.20 l=0.60
+mxm109 net071 cin gnd gnd nmos w=1.20 l=0.60
+mxm104 net084 net054 gnd gnd nmos w=1.20 l=0.60
+mxm103 net068 net071 net084 gnd nmos w=1.20 l=0.60
+mxm102 net085 cin gnd gnd nmos w=1.20 l=0.60
+mxm101 net094 net054 net085 gnd nmos w=1.20 l=0.60
+mxm97 net087 cin gnd gnd nmos w=1.20 l=0.60
+mxm120 cout net095 net081 gnd nmos w=1.20 l=0.60
+mxm96 net068 net062 net087 gnd nmos w=1.20 l=0.60
+mxm66 net031 net038 gnd gnd nmos w=1.20 l=0.60
+mxm119 net081 net094 gnd gnd nmos w=1.20 l=0.60
+mxm84 net054 net062 gnd gnd nmos w=1.20 l=0.60
+mxm25 net88 a gnd gnd nmos w=1.20 l=0.60
+mxm24 net095 net031 net88 gnd nmos w=1.20 l=0.60
+mxm23 net44 a gnd gnd nmos w=1.20 l=0.60
+mxm15 net90 net031 gnd gnd nmos w=1.20 l=0.60
+mxm14 net062 net44 net90 gnd nmos w=1.20 l=0.60
+mxm13 net91 a gnd gnd nmos w=1.20 l=0.60
+mxm12 net062 net038 net91 gnd nmos w=1.20 l=0.60
+mxm11 net24 b gnd gnd nmos w=1.20 l=0.60
+mxm8 net14 s gnd gnd nmos w=1.20 l=0.60
+mxm7 net92 s gnd gnd nmos w=1.20 l=0.60
+mxm6 net038 net24 net92 gnd nmos w=1.20 l=0.60
+mxm5 net93 b gnd gnd nmos w=1.20 l=0.60
+mxm4 net038 net14 net93 gnd nmos w=1.20 l=0.60

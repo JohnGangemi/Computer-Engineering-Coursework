@@ -1,0 +1,24 @@
+;Vector File counter.dat
+
+radix 1	1 1 1 1 
+vname updwn a b clr pre 
+io    i	i i i i 
+tunit ns
+slope 0.1
+vih   5.0 
+vil   0.0 
+tdelay 0.1 	
+
+0 0 0 0 0 1
+10 0 1 1 1 1
+20 0 0 0 1 1
+30 0 1 1 1 1
+40 0 0 0 1 1
+50 0 1 1 1 1
+60 0 0 0 1 0
+70 1 1 1 1 1
+80 1 0 0 1 1
+90 1 1 1 1 1
+100 1 0 0 1 1
+110 1 1 1 1 1
+120 1 0 0 0 1

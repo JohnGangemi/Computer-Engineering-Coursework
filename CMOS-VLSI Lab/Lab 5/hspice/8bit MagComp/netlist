@@ -1,0 +1,2039 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/j/johngangemi/cmos05/DesignLib/Comparator/extracted/layout.oa
+$ Netlist Time: Oct 24 22:25:14 2014
+$****************************************************************************
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: Comparator
+$ Last Time Saved: Oct 24 22:24:53 2014
+$****************************************************************************
+mx383 vdd a7 n127 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx382 vdd a5 n128 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx381 vdd a3 n129 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx380 vdd a1 n130 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx379 n126 n54 n210 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=2.43e-12 pd=8.4e-06
++ps=9e-07
+mx378 n123 n51 n207 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=2.43e-12 pd=8.4e-06
++ps=9e-07
+mx377 n124 n52 n208 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=2.43e-12 pd=8.4e-06
++ps=9e-07
+mx376 n125 n53 n209 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=2.43e-12 pd=8.4e-06
++ps=9e-07
+mx375 n207 n119 vdd vdd pfet w=5.4 l=0.6 ad=2.43e-12 as=8.1e-12 pd=9e-07
++ps=8.4e-06
+mx374 n208 n120 vdd vdd pfet w=5.4 l=0.6 ad=2.43e-12 as=8.1e-12 pd=9e-07
++ps=8.4e-06
+mx373 n209 n121 vdd vdd pfet w=5.4 l=0.6 ad=2.43e-12 as=8.1e-12 pd=9e-07
++ps=8.4e-06
+mx372 n210 n122 vdd vdd pfet w=5.4 l=0.6 ad=2.43e-12 as=8.1e-12 pd=9e-07
++ps=8.4e-06
+mx371 vdd a7 n135 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx370 vdd a5 n136 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx369 vdd a3 n137 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx368 vdd a1 n138 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx367 n135 n111 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx366 n136 n112 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx365 n137 n113 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx364 n138 n114 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx363 n119 n26 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx362 n120 n27 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx361 n121 n28 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx360 n122 vdd vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx359 vdd b7 n111 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx358 vdd b5 n112 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx357 vdd b3 n113 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx356 vdd b1 n114 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx355 vdd n84 n116 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx354 vdd n85 n117 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx353 vdd n86 n118 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx352 vdd n83 n115 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx351 n117 n109 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx350 n118 n110 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx349 n115 n107 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx348 n116 n108 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx347 n138 b1 n106 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx346 n135 b7 n103 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx345 n136 b5 n104 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx344 n137 b3 n105 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx343 n103 n127 n135 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx342 n104 n128 n136 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx341 n105 n129 n137 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx340 n106 n130 n138 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx339 n107 n37 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx338 n108 n38 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx337 n109 n39 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx336 n110 gnd vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx335 vdd n103 n95 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx334 vdd n104 n96 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx333 vdd n105 n97 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx332 vdd n106 n98 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx331 vdd n67 n99 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx330 vdd n68 n100 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx329 vdd n69 n101 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx328 vdd n70 n102 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx327 n99 n87 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx326 n100 n88 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx325 n101 n89 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx324 n102 n90 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx323 vdd b5 n92 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx322 vdd b3 n93 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx321 vdd b1 n94 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx320 vdd b7 n91 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx319 n89 n50 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx318 n90 gnd vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx317 n87 n48 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx316 n88 n49 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx315 vdd n94 n82 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx314 vdd n91 n79 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx313 vdd n92 n80 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx312 vdd n93 n81 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx311 n79 a7 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx310 n80 a5 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx309 n81 a3 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx308 n82 a1 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx307 n83 n26 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx306 n84 n27 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx305 n85 n28 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx304 n86 vdd vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx303 vdd n123 n79 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx302 vdd n124 n80 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx301 vdd n125 n81 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx300 vdd n126 n82 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx299 vdd b2 n85 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx298 vdd b n86 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx297 vdd b6 n83 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx296 vdd b4 n84 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx295 n86 n74 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx294 n83 n71 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx293 n84 n72 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx292 n85 n73 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx291 vdd a7 n75 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx290 vdd a5 n76 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx289 vdd a3 n77 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx288 vdd a1 n78 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx287 n71 a6 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx286 n72 a4 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx285 n73 a2 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx284 n74 a vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx283 vdd n75 n63 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx282 vdd n76 n64 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx281 vdd n77 n65 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx280 vdd n78 n66 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx279 n63 b7 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx278 n64 b5 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx277 n65 b3 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx276 n66 b1 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx275 n67 n26 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx274 n68 n27 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx273 n69 n28 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx272 n70 vdd vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx271 vdd n124 n64 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx270 vdd n125 n65 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx269 vdd n126 n66 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx268 vdd n123 n63 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx267 vdd a6 n67 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx266 vdd a4 n68 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx265 vdd a2 n69 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx264 vdd a n70 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=4.86e-12 pd=1.8e-06
++ps=1.8e-06
+mx263 n67 n55 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx262 n68 n56 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx261 n69 n57 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx260 n70 n58 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx259 vdd n99 n59 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx258 vdd n100 n60 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx257 vdd n101 n61 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx256 vdd n102 n62 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx255 n55 b6 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx254 n56 b4 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx253 n57 b2 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx252 n58 b vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx251 vdd n59 xout vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx250 vdd n60 n48 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx249 vdd n61 n49 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx248 vdd n62 n50 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx247 xout n79 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx246 n48 n80 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx245 n49 n81 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx244 n50 n82 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx243 n54 n36 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx242 n51 n33 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx241 n52 n34 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx240 n53 n35 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx239 vdd n116 n45 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx238 vdd n117 n46 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx237 vdd n118 n47 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx236 vdd n115 n44 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx235 n131 n22 n33 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx234 n132 n23 n34 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx233 n133 n24 n35 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx232 n134 n25 n36 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx231 n33 b6 n131 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx230 n34 b4 n132 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx229 n35 b2 n133 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx228 n36 b n134 vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx227 vdd n44 yout vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx226 vdd n45 n37 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx225 vdd n46 n38 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx224 vdd n47 n39 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx223 yout n63 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx222 n37 n64 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx221 n38 n65 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx220 n39 n66 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx219 n41 b4 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx218 n42 b2 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx217 n43 b vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx216 n40 b6 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx215 vdd n123 n29 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx214 vdd n124 n30 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx213 vdd n125 n31 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx212 vdd n126 n32 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx211 vdd n43 n134 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx210 vdd n40 n131 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx209 vdd n41 n132 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx208 vdd n42 n133 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=4.86e-12 pd=8.4e-06
++ps=1.8e-06
+mx207 n131 a6 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx206 n132 a4 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx205 n133 a2 vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx204 n134 a vdd vdd pfet w=5.4 l=0.6 ad=4.86e-12 as=8.1e-12 pd=1.8e-06
++ps=8.4e-06
+mx203 vdd n29 n203 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=2.43e-12 pd=8.4e-06
++ps=9e-07
+mx202 vdd n30 n204 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=2.43e-12 pd=8.4e-06
++ps=9e-07
+mx201 vdd n31 n205 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=2.43e-12 pd=8.4e-06
++ps=9e-07
+mx200 vdd n32 n206 vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=2.43e-12 pd=8.4e-06
++ps=9e-07
+mx199 n203 n95 zout vdd pfet w=5.4 l=0.6 ad=2.43e-12 as=8.1e-12 pd=9e-07
++ps=8.4e-06
+mx198 n204 n96 n26 vdd pfet w=5.4 l=0.6 ad=2.43e-12 as=8.1e-12 pd=9e-07
++ps=8.4e-06
+mx197 n205 n97 n27 vdd pfet w=5.4 l=0.6 ad=2.43e-12 as=8.1e-12 pd=9e-07
++ps=8.4e-06
+mx196 n206 n98 n28 vdd pfet w=5.4 l=0.6 ad=2.43e-12 as=8.1e-12 pd=9e-07
++ps=8.4e-06
+mx195 n22 a6 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx194 n23 a4 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx193 n24 a2 vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+mx192 n25 a vdd vdd pfet w=5.4 l=0.6 ad=8.1e-12 as=8.1e-12 pd=8.4e-06
++ps=8.4e-06
+cx1642 gnd n130 1.05462e-15
+cx1641 gnd n129 1.05462e-15
+cx1640 gnd n128 1.05462e-15
+cx1639 gnd n127 1.05462e-15
+cx1638 gnd n126 3.36474e-15
+cx1637 gnd n125 3.36474e-15
+cx1636 gnd n124 3.36474e-15
+cx1635 gnd n123 3.36474e-15
+cx1634 gnd n122 1.12158e-15
+cx1633 gnd n121 1.12158e-15
+cx1632 gnd n120 1.12158e-15
+cx1631 gnd n119 1.12158e-15
+cx1630 gnd n118 1.12158e-15
+cx1629 gnd n117 1.12158e-15
+cx1628 gnd n116 1.12158e-15
+cx1627 gnd n115 1.12158e-15
+cx1626 gnd n114 9.8766e-16
+cx1625 gnd n113 9.8766e-16
+cx1624 gnd n112 9.8766e-16
+cx1623 gnd n111 9.8766e-16
+cx1622 gnd n110 1.1718e-15
+cx1621 gnd n109 1.1718e-15
+cx1620 gnd n108 1.1718e-15
+cx1619 gnd n107 1.1718e-15
+cx1618 gnd n106 9.8766e-16
+cx1617 gnd n105 9.8766e-16
+cx1616 gnd n104 9.8766e-16
+cx1615 gnd n103 9.8766e-16
+cx1614 gnd n102 1.12158e-15
+cx1613 gnd n101 1.12158e-15
+cx1612 gnd n100 1.12158e-15
+cx1611 gnd n99 1.12158e-15
+cx1610 gnd n98 1.12158e-15
+cx1609 gnd n97 1.12158e-15
+cx1608 gnd n96 1.12158e-15
+cx1607 gnd n95 1.12158e-15
+cx1606 gnd n94 1.22202e-15
+cx1605 gnd n93 1.22202e-15
+cx1604 gnd n92 1.22202e-15
+cx1603 gnd n91 1.22202e-15
+cx1602 gnd n90 1.1718e-15
+cx1601 gnd n89 1.1718e-15
+cx1600 gnd n88 1.1718e-15
+cx1599 gnd n87 1.1718e-15
+cx1598 gnd n86 1.12158e-15
+cx1597 gnd n85 1.12158e-15
+cx1596 gnd n84 1.12158e-15
+cx1595 gnd n83 1.12158e-15
+cx1594 gnd n82 1.12158e-15
+cx1593 gnd n81 1.12158e-15
+cx1592 gnd n80 1.12158e-15
+cx1591 gnd n79 1.12158e-15
+cx1590 gnd n78 1.22202e-15
+cx1589 gnd n77 1.22202e-15
+cx1588 gnd n76 1.22202e-15
+cx1587 gnd n75 1.22202e-15
+cx1586 gnd n74 1.22202e-15
+cx1585 gnd n73 1.22202e-15
+cx1584 gnd n72 1.22202e-15
+cx1583 gnd n71 1.22202e-15
+cx1582 gnd n70 1.12158e-15
+cx1581 gnd n69 1.12158e-15
+cx1580 gnd n68 1.12158e-15
+cx1579 gnd n67 1.12158e-15
+cx1578 gnd n66 1.12158e-15
+cx1577 gnd n65 1.12158e-15
+cx1576 gnd n64 1.12158e-15
+cx1575 gnd n63 1.12158e-15
+cx1574 gnd n62 1.1718e-15
+cx1573 gnd n61 1.1718e-15
+cx1572 gnd n60 1.1718e-15
+cx1571 gnd n59 1.1718e-15
+cx1570 gnd n58 1.22202e-15
+cx1569 gnd n57 1.22202e-15
+cx1568 gnd n56 1.22202e-15
+cx1567 gnd n55 1.22202e-15
+cx1566 gnd n54 1.12158e-15
+cx1565 gnd n53 1.12158e-15
+cx1564 gnd n52 1.12158e-15
+cx1563 gnd n51 1.12158e-15
+cx1562 gnd n50 1.12158e-15
+cx1561 gnd n49 1.12158e-15
+cx1560 gnd n48 1.12158e-15
+cx1559 gnd n47 1.1718e-15
+cx1558 gnd n46 1.1718e-15
+cx1557 gnd n45 1.1718e-15
+cx1556 gnd n44 1.1718e-15
+cx1555 gnd n43 9.8766e-16
+cx1554 gnd n42 9.8766e-16
+cx1553 gnd n41 9.8766e-16
+cx1552 gnd n40 9.8766e-16
+cx1551 gnd n39 1.12158e-15
+cx1550 gnd n38 1.12158e-15
+cx1549 gnd n37 1.12158e-15
+cx1548 gnd n36 9.8766e-16
+cx1547 gnd n35 9.8766e-16
+cx1546 gnd n34 9.8766e-16
+cx1545 gnd n33 9.8766e-16
+cx1544 gnd n32 1.12158e-15
+cx1543 gnd n31 1.12158e-15
+cx1542 gnd n30 1.12158e-15
+cx1541 gnd n29 1.12158e-15
+cx1540 gnd n28 3.36474e-15
+cx1539 gnd n27 3.36474e-15
+cx1538 gnd n26 3.36474e-15
+cx1537 gnd n25 1.05462e-15
+cx1536 gnd n24 1.05462e-15
+cx1535 gnd n23 1.05462e-15
+cx1534 gnd n22 1.05462e-15
+cx1533 gnd a7 4.78764e-15
+cx1532 gnd a6 4.78764e-15
+cx1531 gnd a5 4.78764e-15
+cx1530 gnd a4 4.78764e-15
+cx1529 gnd a3 4.78764e-15
+cx1528 gnd a2 4.78764e-15
+cx1527 gnd a1 4.78764e-15
+cx1526 b gnd 4.78764e-15
+cx1525 a gnd 4.78764e-15
+cx1524 vdd n130 1.5066e-16
+cx1523 vdd n129 1.5066e-16
+cx1522 vdd n128 1.5066e-16
+cx1521 vdd n127 1.5066e-16
+cx1520 vdd n126 4.5198e-16
+cx1519 vdd n125 4.5198e-16
+cx1518 vdd n124 4.5198e-16
+cx1517 vdd n123 4.5198e-16
+cx1516 vdd n122 4.0176e-16
+cx1515 vdd n121 4.0176e-16
+cx1514 vdd n120 4.0176e-16
+cx1513 vdd n119 4.0176e-16
+cx1512 vdd n118 1.5066e-16
+cx1511 vdd n117 1.5066e-16
+cx1510 vdd n116 1.5066e-16
+cx1509 vdd n115 1.5066e-16
+cx1508 vdd n114 2.1762e-16
+cx1507 vdd n113 2.1762e-16
+cx1506 vdd n112 2.1762e-16
+cx1505 vdd n111 2.1762e-16
+cx1504 vdd n110 3.5154e-16
+cx1503 vdd n109 3.5154e-16
+cx1502 vdd n108 3.5154e-16
+cx1501 vdd n107 3.5154e-16
+cx1500 vdd n106 2.8458e-16
+cx1499 vdd n105 2.8458e-16
+cx1498 vdd n104 2.8458e-16
+cx1497 vdd n103 2.8458e-16
+cx1496 vdd n102 1.5066e-16
+cx1495 vdd n101 1.5066e-16
+cx1494 vdd n100 1.5066e-16
+cx1493 vdd n99 1.5066e-16
+cx1492 vdd n98 1.5066e-16
+cx1491 vdd n97 1.5066e-16
+cx1490 vdd n96 1.5066e-16
+cx1489 vdd n95 1.5066e-16
+cx1488 vdd n94 3.5154e-16
+cx1487 vdd n93 3.5154e-16
+cx1486 vdd n92 3.5154e-16
+cx1485 vdd n91 3.5154e-16
+cx1484 vdd n90 3.5154e-16
+cx1483 vdd n89 3.5154e-16
+cx1482 vdd n88 3.5154e-16
+cx1481 vdd n87 3.5154e-16
+cx1480 vdd n86 1.5066e-16
+cx1479 vdd n85 1.5066e-16
+cx1478 vdd n84 1.5066e-16
+cx1477 vdd n83 1.5066e-16
+cx1476 vdd n82 1.5066e-16
+cx1475 vdd n81 1.5066e-16
+cx1474 vdd n80 1.5066e-16
+cx1473 vdd n79 1.5066e-16
+cx1472 vdd n78 3.5154e-16
+cx1471 vdd n77 3.5154e-16
+cx1470 vdd n76 3.5154e-16
+cx1469 vdd n75 3.5154e-16
+cx1468 vdd n74 3.5154e-16
+cx1467 vdd n73 3.5154e-16
+cx1466 vdd n72 3.5154e-16
+cx1465 vdd n71 3.5154e-16
+cx1464 vdd n70 1.5066e-16
+cx1463 vdd n69 1.5066e-16
+cx1462 vdd n68 1.5066e-16
+cx1461 vdd n67 1.5066e-16
+cx1460 vdd n66 1.5066e-16
+cx1459 vdd n65 1.5066e-16
+cx1458 vdd n64 1.5066e-16
+cx1457 vdd n63 1.5066e-16
+cx1456 vdd n62 3.5154e-16
+cx1455 vdd n61 3.5154e-16
+cx1454 vdd n60 3.5154e-16
+cx1453 vdd n59 3.5154e-16
+cx1452 vdd n58 3.5154e-16
+cx1451 vdd n57 3.5154e-16
+cx1450 vdd n56 3.5154e-16
+cx1449 vdd n55 3.5154e-16
+cx1448 vdd n54 1.5066e-16
+cx1447 vdd n53 1.5066e-16
+cx1446 vdd n52 1.5066e-16
+cx1445 vdd n51 1.5066e-16
+cx1444 vdd n50 1.5066e-16
+cx1443 vdd n49 1.5066e-16
+cx1442 vdd n48 1.5066e-16
+cx1441 vdd n47 3.5154e-16
+cx1440 vdd n46 3.5154e-16
+cx1439 vdd n45 3.5154e-16
+cx1438 vdd n44 3.5154e-16
+cx1437 vdd n43 2.1762e-16
+cx1436 vdd n42 2.1762e-16
+cx1435 vdd n41 2.1762e-16
+cx1434 vdd n40 2.1762e-16
+cx1433 vdd n39 1.5066e-16
+cx1432 vdd n38 1.5066e-16
+cx1431 vdd n37 1.5066e-16
+cx1430 vdd n36 2.8458e-16
+cx1429 vdd n35 2.8458e-16
+cx1428 vdd n34 2.8458e-16
+cx1427 vdd n33 2.8458e-16
+cx1426 vdd n32 4.0176e-16
+cx1425 vdd n31 4.0176e-16
+cx1424 vdd n30 4.0176e-16
+cx1423 vdd n29 4.0176e-16
+cx1422 vdd n28 4.5198e-16
+cx1421 vdd n27 4.5198e-16
+cx1420 vdd n26 4.5198e-16
+cx1419 vdd n25 1.5066e-16
+cx1418 vdd n24 1.5066e-16
+cx1417 vdd n23 1.5066e-16
+cx1416 vdd n22 1.5066e-16
+cx1415 vdd a7 6.0264e-16
+cx1414 vdd a6 6.0264e-16
+cx1413 vdd a5 6.0264e-16
+cx1412 vdd a4 6.0264e-16
+cx1411 vdd a3 6.0264e-16
+cx1410 vdd a2 6.0264e-16
+cx1409 vdd a1 6.0264e-16
+cx1408 vdd gnd 3.66606e-15
+cx1407 vdd b 6.0264e-16
+cx1406 vdd a 6.0264e-16
+cx1405 b7 gnd 4.78764e-15
+cx1404 b7 vdd 6.0264e-16
+cx1403 b6 gnd 4.78764e-15
+cx1402 b6 vdd 6.0264e-16
+cx1401 b5 gnd 4.78764e-15
+cx1400 b5 vdd 6.0264e-16
+cx1399 b4 gnd 4.78764e-15
+cx1398 b4 vdd 6.0264e-16
+cx1397 b3 gnd 4.78764e-15
+cx1396 b3 vdd 6.0264e-16
+cx1395 b2 gnd 4.78764e-15
+cx1394 b2 vdd 6.0264e-16
+cx1393 b1 gnd 4.78764e-15
+cx1392 b1 vdd 6.0264e-16
+cx1391 n106 n130 2.7e-16
+cx1390 n105 n129 2.7e-16
+cx1389 n104 n128 2.7e-16
+cx1388 n103 n127 2.7e-16
+cx1387 n86 n118 2.7e-16
+cx1386 n85 n117 2.7e-16
+cx1385 n84 n116 2.7e-16
+cx1384 n83 n115 2.7e-16
+cx1383 n70 n102 2.7e-16
+cx1382 n69 n101 2.7e-16
+cx1381 n68 n100 2.7e-16
+cx1380 n67 n99 2.7e-16
+cx1379 n54 n126 2.7e-16
+cx1378 n53 n125 2.7e-16
+cx1377 n52 n124 2.7e-16
+cx1376 n51 n123 2.7e-16
+cx1375 n50 n82 2.7e-16
+cx1374 n49 n81 2.7e-16
+cx1373 n48 n80 2.7e-16
+cx1372 n39 n66 2.7e-16
+cx1371 n38 n65 2.7e-16
+cx1370 n37 n64 2.7e-16
+cx1369 n28 n98 2.7e-16
+cx1368 n27 n97 2.7e-16
+cx1367 n26 n96 2.7e-16
+cx1366 n25 n36 2.7e-16
+cx1365 n24 n35 2.7e-16
+cx1364 n23 n34 2.7e-16
+cx1363 n22 n33 2.7e-16
+cx1362 a7 n127 2.7e-16
+cx1361 a6 n22 2.7e-16
+cx1360 a5 n128 2.7e-16
+cx1359 a4 n23 2.7e-16
+cx1358 a3 n129 2.7e-16
+cx1357 a2 n24 2.7e-16
+cx1356 a1 n130 2.7e-16
+cx1355 gnd n130 3.3462e-15
+cx1354 gnd n129 3.3462e-15
+cx1353 gnd n128 3.3462e-15
+cx1352 gnd n127 3.3462e-15
+cx1351 gnd n126 4.1226e-15
+cx1350 gnd n125 4.1226e-15
+cx1349 gnd n124 4.1226e-15
+cx1348 gnd n123 4.1226e-15
+cx1347 gnd n122 3.46452e-15
+cx1346 gnd n121 3.46452e-15
+cx1345 gnd n120 3.46452e-15
+cx1344 gnd n119 3.46452e-15
+cx1343 gnd n118 3.46452e-15
+cx1342 gnd n117 3.46452e-15
+cx1341 gnd n116 3.46452e-15
+cx1340 gnd n115 3.46452e-15
+cx1339 gnd n114 3.3462e-15
+cx1338 gnd n113 3.3462e-15
+cx1337 gnd n112 3.3462e-15
+cx1336 gnd n111 3.3462e-15
+cx1335 gnd n110 3.46452e-15
+cx1334 gnd n109 3.46452e-15
+cx1333 gnd n108 3.46452e-15
+cx1332 gnd n107 3.46452e-15
+cx1331 gnd n106 3.99696e-15
+cx1330 gnd n105 3.99696e-15
+cx1329 gnd n104 3.99696e-15
+cx1328 gnd n103 3.99696e-15
+cx1327 gnd n102 3.46452e-15
+cx1326 gnd n101 3.46452e-15
+cx1325 gnd n100 3.46452e-15
+cx1324 gnd n99 3.46452e-15
+cx1323 gnd n98 3.46452e-15
+cx1322 gnd n97 3.46452e-15
+cx1321 gnd n96 3.46452e-15
+cx1320 gnd n95 3.46452e-15
+cx1319 gnd n94 3.46452e-15
+cx1318 gnd n93 3.46452e-15
+cx1317 gnd n92 3.46452e-15
+cx1316 gnd n91 3.46452e-15
+cx1315 gnd n90 3.46452e-15
+cx1314 gnd n89 3.46452e-15
+cx1313 gnd n88 3.46452e-15
+cx1312 gnd n87 3.46452e-15
+cx1311 gnd n86 3.46452e-15
+cx1310 gnd n85 3.46452e-15
+cx1309 gnd n84 3.46452e-15
+cx1308 gnd n83 3.46452e-15
+cx1307 gnd n82 3.46452e-15
+cx1306 gnd n81 3.46452e-15
+cx1305 gnd n80 3.46452e-15
+cx1304 gnd n79 3.46452e-15
+cx1303 gnd n78 3.46452e-15
+cx1302 gnd n77 3.46452e-15
+cx1301 gnd n76 3.46452e-15
+cx1300 gnd n75 3.46452e-15
+cx1299 gnd n74 3.46452e-15
+cx1298 gnd n73 3.46452e-15
+cx1297 gnd n72 3.46452e-15
+cx1296 gnd n71 3.46452e-15
+cx1295 gnd n70 3.46452e-15
+cx1294 gnd n69 3.46452e-15
+cx1293 gnd n68 3.46452e-15
+cx1292 gnd n67 3.46452e-15
+cx1291 gnd n66 3.46452e-15
+cx1290 gnd n65 3.46452e-15
+cx1289 gnd n64 3.46452e-15
+cx1288 gnd n63 3.46452e-15
+cx1287 gnd n62 3.46452e-15
+cx1286 gnd n61 3.46452e-15
+cx1285 gnd n60 3.46452e-15
+cx1284 gnd n59 3.46452e-15
+cx1283 gnd n58 3.46452e-15
+cx1282 gnd n57 3.46452e-15
+cx1281 gnd n56 3.46452e-15
+cx1280 gnd n55 3.46452e-15
+cx1279 gnd n54 3.46452e-15
+cx1278 gnd n53 3.46452e-15
+cx1277 gnd n52 3.46452e-15
+cx1276 gnd n51 3.46452e-15
+cx1275 gnd n50 3.46452e-15
+cx1274 gnd n49 3.46452e-15
+cx1273 gnd n48 3.46452e-15
+cx1272 gnd n47 3.46452e-15
+cx1271 gnd n46 3.46452e-15
+cx1270 gnd n45 3.46452e-15
+cx1269 gnd n44 3.46452e-15
+cx1268 gnd n43 3.3462e-15
+cx1267 gnd n42 3.3462e-15
+cx1266 gnd n41 3.3462e-15
+cx1265 gnd n40 3.3462e-15
+cx1264 gnd n39 3.46452e-15
+cx1263 gnd n38 3.46452e-15
+cx1262 gnd n37 3.46452e-15
+cx1261 gnd n36 3.99696e-15
+cx1260 gnd n35 3.99696e-15
+cx1259 gnd n34 3.99696e-15
+cx1258 gnd n33 3.99696e-15
+cx1257 gnd n32 3.46452e-15
+cx1256 gnd n31 3.46452e-15
+cx1255 gnd n30 3.46452e-15
+cx1254 gnd n29 3.46452e-15
+cx1253 gnd n28 4.30008e-15
+cx1252 gnd n27 4.30008e-15
+cx1251 gnd n26 4.06344e-15
+cx1250 gnd n25 3.3462e-15
+cx1249 gnd n24 3.3462e-15
+cx1248 gnd n23 3.3462e-15
+cx1247 gnd n22 3.3462e-15
+cx1246 yout n63 2.7e-16
+cx1245 yout gnd 3.46452e-15
+cx1244 b n43 5.4e-16
+cx1243 a n25 2.7e-16
+cx1242 vdd n130 5.0652e-16
+cx1241 vdd n129 5.0652e-16
+cx1240 vdd n128 5.0652e-16
+cx1239 vdd n127 5.0652e-16
+cx1238 vdd n126 9.2064e-16
+cx1237 vdd n125 9.2064e-16
+cx1236 vdd n124 9.2064e-16
+cx1235 vdd n123 9.2064e-16
+cx1234 vdd n122 4.1412e-16
+cx1233 vdd n121 4.1412e-16
+cx1232 vdd n120 4.1412e-16
+cx1231 vdd n119 4.1412e-16
+cx1230 vdd n118 8.6148e-16
+cx1229 vdd n117 8.6148e-16
+cx1228 vdd n116 8.6148e-16
+cx1227 vdd n115 8.6148e-16
+cx1226 vdd n114 1.24236e-15
+cx1225 vdd n113 1.24236e-15
+cx1224 vdd n112 1.24236e-15
+cx1223 vdd n111 1.24236e-15
+cx1222 vdd n110 4.1412e-16
+cx1221 vdd n109 4.1412e-16
+cx1220 vdd n108 4.1412e-16
+cx1219 vdd n107 4.1412e-16
+cx1218 vdd n106 1.06488e-15
+cx1217 vdd n105 1.06488e-15
+cx1216 vdd n104 1.06488e-15
+cx1215 vdd n103 1.06488e-15
+cx1214 vdd n102 8.6148e-16
+cx1213 vdd n101 8.6148e-16
+cx1212 vdd n100 8.6148e-16
+cx1211 vdd n99 8.6148e-16
+cx1210 vdd n98 5.0652e-16
+cx1209 vdd n97 5.0652e-16
+cx1208 vdd n96 5.0652e-16
+cx1207 vdd n95 5.0652e-16
+cx1206 vdd n94 4.1412e-16
+cx1205 vdd n93 4.1412e-16
+cx1204 vdd n92 4.1412e-16
+cx1203 vdd n91 4.1412e-16
+cx1202 vdd n90 4.1412e-16
+cx1201 vdd n89 4.1412e-16
+cx1200 vdd n88 4.1412e-16
+cx1199 vdd n87 4.1412e-16
+cx1198 vdd n86 5.0652e-16
+cx1197 vdd n85 5.0652e-16
+cx1196 vdd n84 5.0652e-16
+cx1195 vdd n83 5.0652e-16
+cx1194 vdd n82 5.0652e-16
+cx1193 vdd n81 5.0652e-16
+cx1192 vdd n80 5.0652e-16
+cx1191 vdd n79 5.0652e-16
+cx1190 vdd n78 4.1412e-16
+cx1189 vdd n77 4.1412e-16
+cx1188 vdd n76 4.1412e-16
+cx1187 vdd n75 4.1412e-16
+cx1186 vdd n74 4.1412e-16
+cx1185 vdd n73 4.1412e-16
+cx1184 vdd n72 4.1412e-16
+cx1183 vdd n71 4.1412e-16
+cx1182 vdd n70 5.0652e-16
+cx1181 vdd n69 5.0652e-16
+cx1180 vdd n68 5.0652e-16
+cx1179 vdd n67 5.0652e-16
+cx1178 vdd n66 5.0652e-16
+cx1177 vdd n65 5.0652e-16
+cx1176 vdd n64 5.0652e-16
+cx1175 vdd n63 5.0652e-16
+cx1174 vdd n62 4.1412e-16
+cx1173 vdd n61 4.1412e-16
+cx1172 vdd n60 4.1412e-16
+cx1171 vdd n59 4.1412e-16
+cx1170 vdd n58 4.1412e-16
+cx1169 vdd n57 4.1412e-16
+cx1168 vdd n56 4.1412e-16
+cx1167 vdd n55 4.1412e-16
+cx1166 vdd n54 5.0652e-16
+cx1165 vdd n53 5.0652e-16
+cx1164 vdd n52 5.0652e-16
+cx1163 vdd n51 5.0652e-16
+cx1162 vdd n50 8.6148e-16
+cx1161 vdd n49 8.6148e-16
+cx1160 vdd n48 8.6148e-16
+cx1159 vdd n47 4.1412e-16
+cx1158 vdd n46 4.1412e-16
+cx1157 vdd n45 4.1412e-16
+cx1156 vdd n44 4.1412e-16
+cx1155 vdd n43 1.24236e-15
+cx1154 vdd n42 1.24236e-15
+cx1153 vdd n41 1.24236e-15
+cx1152 vdd n40 1.24236e-15
+cx1151 vdd n39 8.6148e-16
+cx1150 vdd n38 8.6148e-16
+cx1149 vdd n37 8.6148e-16
+cx1148 vdd n36 1.06488e-15
+cx1147 vdd n35 1.06488e-15
+cx1146 vdd n34 1.06488e-15
+cx1145 vdd n33 1.06488e-15
+cx1144 vdd n32 4.1412e-16
+cx1143 vdd n31 4.1412e-16
+cx1142 vdd n30 4.1412e-16
+cx1141 vdd n29 4.1412e-16
+cx1140 vdd n28 9.29514e-16
+cx1139 vdd n27 9.29514e-16
+cx1138 vdd n26 9.29514e-16
+cx1137 vdd n25 5.0652e-16
+cx1136 vdd n24 5.0652e-16
+cx1135 vdd n23 5.0652e-16
+cx1134 vdd n22 5.0652e-16
+cx1133 vdd gnd 1.68124e-14
+cx1132 vdd yout 8.6148e-16
+cx1131 xout n79 2.7e-16
+cx1130 xout gnd 3.46452e-15
+cx1129 xout vdd 8.6148e-16
+cx1128 zout n95 2.7e-16
+cx1127 zout gnd 3.81948e-15
+cx1126 zout vdd 8.70354e-16
+cx1125 b7 n111 5.4e-16
+cx1124 b6 n40 5.4e-16
+cx1123 b5 n112 5.4e-16
+cx1122 b4 n41 5.4e-16
+cx1121 b3 n113 5.4e-16
+cx1120 b2 n42 5.4e-16
+cx1119 b1 n114 5.4e-16
+cx1118 n130 n138 1.8864e-16
+cx1117 n129 n137 1.8864e-16
+cx1116 n128 n136 1.8864e-16
+cx1115 n127 n135 1.8864e-16
+cx1114 n126 n130 5.064e-16
+cx1113 n125 n129 5.064e-16
+cx1112 n124 n128 5.064e-16
+cx1111 n123 n127 5.064e-16
+cx1110 n118 n130 5.064e-16
+cx1109 n118 n126 8.8368e-16
+cx1108 n118 n122 5.064e-16
+cx1107 n117 n129 5.064e-16
+cx1106 n117 n125 8.8368e-16
+cx1105 n117 n121 5.064e-16
+cx1104 n116 n128 5.064e-16
+cx1103 n116 n124 8.8368e-16
+cx1102 n116 n120 5.064e-16
+cx1101 n115 n127 5.064e-16
+cx1100 n115 n123 8.8368e-16
+cx1099 n115 n119 5.064e-16
+cx1098 n114 n138 5.1396e-16
+cx1097 n114 n130 5.064e-16
+cx1096 n114 n126 5.064e-16
+cx1095 n114 n118 5.064e-16
+cx1094 n113 n137 5.1396e-16
+cx1093 n113 n129 5.064e-16
+cx1092 n113 n125 5.064e-16
+cx1091 n113 n117 5.064e-16
+cx1090 n112 n136 5.1396e-16
+cx1089 n112 n128 5.064e-16
+cx1088 n112 n124 5.064e-16
+cx1087 n112 n116 5.064e-16
+cx1086 n111 n135 5.1396e-16
+cx1085 n111 n127 5.064e-16
+cx1084 n111 n123 5.064e-16
+cx1083 n111 n115 5.064e-16
+cx1082 n106 n194 2.268e-17
+cx1081 n106 n138 3.3288e-16
+cx1080 n106 n130 1.8864e-16
+cx1079 n106 n126 5.064e-16
+cx1078 n106 n118 5.064e-16
+cx1077 n106 n114 3.2532e-16
+cx1076 n105 n193 2.268e-17
+cx1075 n105 n137 3.3288e-16
+cx1074 n105 n129 1.8864e-16
+cx1073 n105 n125 5.064e-16
+cx1072 n105 n117 5.064e-16
+cx1071 n105 n113 3.2532e-16
+cx1070 n104 n192 2.268e-17
+cx1069 n104 n136 3.3288e-16
+cx1068 n104 n128 1.8864e-16
+cx1067 n104 n124 5.064e-16
+cx1066 n104 n116 5.064e-16
+cx1065 n104 n112 3.2532e-16
+cx1064 n103 n191 2.268e-17
+cx1063 n103 n135 3.3288e-16
+cx1062 n103 n127 1.8864e-16
+cx1061 n103 n123 5.064e-16
+cx1060 n103 n115 5.064e-16
+cx1059 n103 n111 3.2532e-16
+cx1058 n102 n130 5.064e-16
+cx1057 n102 n126 8.8368e-16
+cx1056 n102 n122 5.064e-16
+cx1055 n102 n118 5.064e-16
+cx1054 n102 n114 5.064e-16
+cx1053 n102 n110 5.064e-16
+cx1052 n102 n106 5.064e-16
+cx1051 n101 n129 5.064e-16
+cx1050 n101 n125 8.8368e-16
+cx1049 n101 n121 5.064e-16
+cx1048 n101 n117 5.064e-16
+cx1047 n101 n113 5.064e-16
+cx1046 n101 n109 5.064e-16
+cx1045 n101 n105 5.064e-16
+cx1044 n100 n128 5.064e-16
+cx1043 n100 n124 8.8368e-16
+cx1042 n100 n120 5.064e-16
+cx1041 n100 n116 5.064e-16
+cx1040 n100 n112 5.064e-16
+cx1039 n100 n108 5.064e-16
+cx1038 n100 n104 5.064e-16
+cx1037 n99 n127 5.064e-16
+cx1036 n99 n123 8.8368e-16
+cx1035 n99 n119 5.064e-16
+cx1034 n99 n115 5.064e-16
+cx1033 n99 n111 5.064e-16
+cx1032 n99 n107 5.064e-16
+cx1031 n99 n103 5.064e-16
+cx1030 n98 n126 8.8368e-16
+cx1029 n98 n118 5.064e-16
+cx1028 n98 n102 5.064e-16
+cx1027 n97 n125 8.8368e-16
+cx1026 n97 n117 5.064e-16
+cx1025 n97 n101 5.064e-16
+cx1024 n96 n124 8.8368e-16
+cx1023 n96 n116 5.064e-16
+cx1022 n96 n100 5.064e-16
+cx1021 n95 n123 8.8368e-16
+cx1020 n95 n115 5.064e-16
+cx1019 n95 n99 5.064e-16
+cx1018 n94 n126 5.064e-16
+cx1017 n94 n118 5.064e-16
+cx1016 n94 n102 5.064e-16
+cx1015 n94 n98 5.064e-16
+cx1014 n93 n125 5.064e-16
+cx1013 n93 n117 5.064e-16
+cx1012 n93 n101 5.064e-16
+cx1011 n93 n97 5.064e-16
+cx1010 n92 n124 5.064e-16
+cx1009 n92 n116 5.064e-16
+cx1008 n92 n100 5.064e-16
+cx1007 n92 n96 5.064e-16
+cx1006 n91 n123 5.064e-16
+cx1005 n91 n115 5.064e-16
+cx1004 n91 n99 5.064e-16
+cx1003 n91 n95 5.064e-16
+cx1002 n86 n110 5.064e-16
+cx1001 n86 n102 5.064e-16
+cx1000 n86 n90 5.064e-16
+cx999 n85 n109 5.064e-16
+cx998 n85 n101 5.064e-16
+cx997 n85 n89 5.064e-16
+cx996 n84 n108 5.064e-16
+cx995 n84 n100 5.064e-16
+cx994 n84 n88 5.064e-16
+cx993 n83 n107 5.064e-16
+cx992 n83 n99 5.064e-16
+cx991 n83 n87 5.064e-16
+cx990 n82 n126 8.8368e-16
+cx989 n82 n118 5.064e-16
+cx988 n82 n102 5.064e-16
+cx987 n82 n98 5.064e-16
+cx986 n81 n125 8.8368e-16
+cx985 n81 n117 5.064e-16
+cx984 n81 n101 5.064e-16
+cx983 n81 n97 5.064e-16
+cx982 n80 n124 8.8368e-16
+cx981 n80 n116 5.064e-16
+cx980 n80 n100 5.064e-16
+cx979 n80 n96 5.064e-16
+cx978 n79 n123 8.8368e-16
+cx977 n79 n115 5.064e-16
+cx976 n79 n99 5.064e-16
+cx975 n79 n95 5.064e-16
+cx974 n78 n126 5.064e-16
+cx973 n78 n118 5.064e-16
+cx972 n78 n102 5.064e-16
+cx971 n78 n98 5.064e-16
+cx970 n78 n82 5.064e-16
+cx969 n77 n125 5.064e-16
+cx968 n77 n117 5.064e-16
+cx967 n77 n101 5.064e-16
+cx966 n77 n97 5.064e-16
+cx965 n77 n81 5.064e-16
+cx964 n76 n124 5.064e-16
+cx963 n76 n116 5.064e-16
+cx962 n76 n100 5.064e-16
+cx961 n76 n96 5.064e-16
+cx960 n76 n80 5.064e-16
+cx959 n75 n123 5.064e-16
+cx958 n75 n115 5.064e-16
+cx957 n75 n99 5.064e-16
+cx956 n75 n95 5.064e-16
+cx955 n75 n79 5.064e-16
+cx954 n70 n90 5.064e-16
+cx953 n70 n86 5.064e-16
+cx952 n70 n74 5.064e-16
+cx951 n69 n89 5.064e-16
+cx950 n69 n85 5.064e-16
+cx949 n69 n73 5.064e-16
+cx948 n68 n88 5.064e-16
+cx947 n68 n84 5.064e-16
+cx946 n68 n72 5.064e-16
+cx945 n67 n87 5.064e-16
+cx944 n67 n83 5.064e-16
+cx943 n67 n71 5.064e-16
+cx942 n66 n126 6.9504e-16
+cx941 n66 n118 5.064e-16
+cx940 n66 n102 5.064e-16
+cx939 n66 n98 5.064e-16
+cx938 n66 n82 5.064e-16
+cx937 n65 n125 6.9504e-16
+cx936 n65 n117 5.064e-16
+cx935 n65 n101 5.064e-16
+cx934 n65 n97 5.064e-16
+cx933 n65 n81 5.064e-16
+cx932 n64 n124 6.9504e-16
+cx931 n64 n116 5.064e-16
+cx930 n64 n100 5.064e-16
+cx929 n64 n96 5.064e-16
+cx928 n64 n80 5.064e-16
+cx927 n63 n123 6.9504e-16
+cx926 n63 n115 5.064e-16
+cx925 n63 n99 5.064e-16
+cx924 n63 n95 5.064e-16
+cx923 n63 n79 5.064e-16
+cx922 n62 n126 5.064e-16
+cx921 n62 n118 5.064e-16
+cx920 n62 n98 5.064e-16
+cx919 n62 n82 5.064e-16
+cx918 n62 n66 5.064e-16
+cx917 n61 n125 5.064e-16
+cx916 n61 n117 5.064e-16
+cx915 n61 n97 5.064e-16
+cx914 n61 n81 5.064e-16
+cx913 n61 n65 5.064e-16
+cx912 n60 n124 5.064e-16
+cx911 n60 n116 5.064e-16
+cx910 n60 n96 5.064e-16
+cx909 n60 n80 5.064e-16
+cx908 n60 n64 5.064e-16
+cx907 n59 n123 5.064e-16
+cx906 n59 n115 5.064e-16
+cx905 n59 n95 5.064e-16
+cx904 n59 n79 5.064e-16
+cx903 n59 n63 5.064e-16
+cx902 n54 n122 5.064e-16
+cx901 n54 n118 5.064e-16
+cx900 n54 n110 5.064e-16
+cx899 n54 n102 5.064e-16
+cx898 n54 n90 5.064e-16
+cx897 n54 n86 5.064e-16
+cx896 n54 n74 5.064e-16
+cx895 n54 n70 5.064e-16
+cx894 n54 n58 5.064e-16
+cx893 n53 n121 5.064e-16
+cx892 n53 n117 5.064e-16
+cx891 n53 n109 5.064e-16
+cx890 n53 n101 5.064e-16
+cx889 n53 n89 5.064e-16
+cx888 n53 n85 5.064e-16
+cx887 n53 n73 5.064e-16
+cx886 n53 n69 5.064e-16
+cx885 n53 n57 5.064e-16
+cx884 n52 n120 5.064e-16
+cx883 n52 n116 5.064e-16
+cx882 n52 n108 5.064e-16
+cx881 n52 n100 5.064e-16
+cx880 n52 n88 5.064e-16
+cx879 n52 n84 5.064e-16
+cx878 n52 n72 5.064e-16
+cx877 n52 n68 5.064e-16
+cx876 n52 n56 5.064e-16
+cx875 n51 n119 5.064e-16
+cx874 n51 n115 5.064e-16
+cx873 n51 n107 5.064e-16
+cx872 n51 n99 5.064e-16
+cx871 n51 n87 5.064e-16
+cx870 n51 n83 5.064e-16
+cx869 n51 n71 5.064e-16
+cx868 n51 n67 5.064e-16
+cx867 n51 n55 5.064e-16
+cx866 n50 n126 5.064e-16
+cx865 n50 n118 5.064e-16
+cx864 n50 n98 5.064e-16
+cx863 n50 n85 5.064e-16
+cx862 n50 n73 5.064e-16
+cx861 n50 n69 5.064e-16
+cx860 n50 n66 5.064e-16
+cx859 n50 n57 5.064e-16
+cx858 n50 n53 5.064e-16
+cx857 n49 n125 5.064e-16
+cx856 n49 n117 5.064e-16
+cx855 n49 n97 5.064e-16
+cx854 n49 n84 5.064e-16
+cx853 n49 n72 5.064e-16
+cx852 n49 n68 5.064e-16
+cx851 n49 n65 5.064e-16
+cx850 n49 n56 5.064e-16
+cx849 n49 n52 5.064e-16
+cx848 n48 n124 5.064e-16
+cx847 n48 n116 5.064e-16
+cx846 n48 n96 5.064e-16
+cx845 n48 n83 5.064e-16
+cx844 n48 n71 5.064e-16
+cx843 n48 n67 5.064e-16
+cx842 n48 n64 5.064e-16
+cx841 n48 n55 5.064e-16
+cx840 n48 n51 5.064e-16
+cx839 n47 n126 5.064e-16
+cx838 n47 n98 5.064e-16
+cx837 n47 n66 5.064e-16
+cx836 n47 n50 5.064e-16
+cx835 n46 n125 5.064e-16
+cx834 n46 n97 5.064e-16
+cx833 n46 n65 5.064e-16
+cx832 n46 n49 5.064e-16
+cx831 n45 n124 5.064e-16
+cx830 n45 n96 5.064e-16
+cx829 n45 n64 5.064e-16
+cx828 n45 n48 5.064e-16
+cx827 n44 n123 5.064e-16
+cx826 n44 n95 5.064e-16
+cx825 n44 n63 5.064e-16
+cx824 n43 n134 5.1396e-16
+cx823 n42 n133 5.1396e-16
+cx822 n42 n50 5.064e-16
+cx821 n41 n132 5.1396e-16
+cx820 n41 n49 5.064e-16
+cx819 n40 n131 5.1396e-16
+cx818 n40 n48 5.064e-16
+cx817 n39 n126 5.064e-16
+cx816 n39 n101 5.064e-16
+cx815 n39 n98 5.064e-16
+cx814 n39 n89 5.064e-16
+cx813 n39 n85 5.064e-16
+cx812 n39 n73 5.064e-16
+cx811 n39 n69 5.064e-16
+cx810 n39 n57 5.064e-16
+cx809 n39 n53 5.064e-16
+cx808 n39 n50 5.064e-16
+cx807 n39 n42 5.064e-16
+cx806 n38 n125 5.064e-16
+cx805 n38 n100 5.064e-16
+cx804 n38 n97 5.064e-16
+cx803 n38 n88 5.064e-16
+cx802 n38 n84 5.064e-16
+cx801 n38 n72 5.064e-16
+cx800 n38 n68 5.064e-16
+cx799 n38 n56 5.064e-16
+cx798 n38 n52 5.064e-16
+cx797 n38 n49 5.064e-16
+cx796 n38 n41 5.064e-16
+cx795 n37 n124 5.064e-16
+cx794 n37 n99 5.064e-16
+cx793 n37 n96 5.064e-16
+cx792 n37 n87 5.064e-16
+cx791 n37 n83 5.064e-16
+cx790 n37 n71 5.064e-16
+cx789 n37 n67 5.064e-16
+cx788 n37 n55 5.064e-16
+cx787 n37 n51 5.064e-16
+cx786 n37 n48 5.064e-16
+cx785 n37 n40 5.064e-16
+cx784 n36 n150 2.268e-17
+cx783 n36 n134 3.3288e-16
+cx782 n36 n43 3.2532e-16
+cx781 n35 n149 2.268e-17
+cx780 n35 n133 3.3288e-16
+cx779 n35 n50 5.064e-16
+cx778 n35 n42 3.2532e-16
+cx777 n35 n39 5.064e-16
+cx776 n34 n148 2.268e-17
+cx775 n34 n132 3.3288e-16
+cx774 n34 n49 5.064e-16
+cx773 n34 n41 3.2532e-16
+cx772 n34 n38 5.064e-16
+cx771 n33 n147 2.268e-17
+cx770 n33 n131 3.3288e-16
+cx769 n33 n48 5.064e-16
+cx768 n33 n40 3.2532e-16
+cx767 n33 n37 5.064e-16
+cx766 n32 n98 5.064e-16
+cx765 n32 n50 5.064e-16
+cx764 n32 n39 5.064e-16
+cx763 n31 n97 5.064e-16
+cx762 n31 n49 5.064e-16
+cx761 n31 n38 5.064e-16
+cx760 n30 n96 5.064e-16
+cx759 n30 n48 5.064e-16
+cx758 n30 n37 5.064e-16
+cx757 n29 n95 5.064e-16
+cx756 n28 n117 5.064e-16
+cx755 n28 n109 5.064e-16
+cx754 n28 n101 5.064e-16
+cx753 n28 n89 5.064e-16
+cx752 n28 n85 6.9504e-16
+cx751 n28 n73 5.064e-16
+cx750 n28 n69 8.8368e-16
+cx749 n28 n57 5.064e-16
+cx748 n28 n53 8.8368e-16
+cx747 n28 n50 8.8368e-16
+cx746 n28 n42 5.064e-16
+cx745 n28 n39 8.8368e-16
+cx744 n28 n35 5.064e-16
+cx743 n27 n116 5.064e-16
+cx742 n27 n108 5.064e-16
+cx741 n27 n100 5.064e-16
+cx740 n27 n88 5.064e-16
+cx739 n27 n84 6.9504e-16
+cx738 n27 n72 5.064e-16
+cx737 n27 n68 8.8368e-16
+cx736 n27 n56 5.064e-16
+cx735 n27 n52 8.8368e-16
+cx734 n27 n49 8.8368e-16
+cx733 n27 n41 5.064e-16
+cx732 n27 n38 8.8368e-16
+cx731 n27 n34 5.064e-16
+cx730 n26 n115 5.064e-16
+cx729 n26 n107 5.064e-16
+cx728 n26 n99 5.064e-16
+cx727 n26 n87 5.064e-16
+cx726 n26 n83 6.9504e-16
+cx725 n26 n71 5.064e-16
+cx724 n26 n67 8.8368e-16
+cx723 n26 n55 5.064e-16
+cx722 n26 n51 8.8368e-16
+cx721 n26 n48 8.8368e-16
+cx720 n26 n40 5.064e-16
+cx719 n26 n37 8.8368e-16
+cx718 n26 n33 5.064e-16
+cx717 n25 n134 1.8864e-16
+cx716 n25 n43 5.064e-16
+cx715 n25 n36 1.8864e-16
+cx714 n24 n133 1.8864e-16
+cx713 n24 n50 5.064e-16
+cx712 n24 n42 5.064e-16
+cx711 n24 n39 5.064e-16
+cx710 n24 n35 1.8864e-16
+cx709 n24 n28 5.064e-16
+cx708 n23 n132 1.8864e-16
+cx707 n23 n49 5.064e-16
+cx706 n23 n41 5.064e-16
+cx705 n23 n38 5.064e-16
+cx704 n23 n34 1.8864e-16
+cx703 n23 n27 5.064e-16
+cx702 n22 n131 1.8864e-16
+cx701 n22 n48 5.064e-16
+cx700 n22 n40 5.064e-16
+cx699 n22 n37 5.064e-16
+cx698 n22 n33 1.8864e-16
+cx697 n22 n26 5.064e-16
+cx696 a7 n127 6.9504e-16
+cx695 a7 n123 9.432e-16
+cx694 a7 n115 7.5456e-16
+cx693 a7 n111 5.064e-16
+cx692 a7 n103 5.064e-16
+cx691 a7 n99 7.5456e-16
+cx690 a7 n95 8.4819e-16
+cx689 a7 n91 5.064e-16
+cx688 a7 n79 6.9504e-16
+cx687 a6 n67 6.9504e-16
+cx686 a6 n55 5.064e-16
+cx685 a6 n51 8.4819e-16
+cx684 a6 n48 7.5456e-16
+cx683 a6 n40 5.064e-16
+cx682 a6 n37 7.5456e-16
+cx681 a6 n33 5.064e-16
+cx680 a6 n26 9.432e-16
+cx679 a6 n22 6.9504e-16
+cx678 a5 n128 6.9504e-16
+cx677 a5 n124 9.432e-16
+cx676 a5 n116 7.5456e-16
+cx675 a5 n112 5.064e-16
+cx674 a5 n104 5.064e-16
+cx673 a5 n100 7.5456e-16
+cx672 a5 n96 8.4819e-16
+cx671 a5 n92 5.064e-16
+cx670 a5 n80 6.9504e-16
+cx669 a4 n68 6.9504e-16
+cx668 a4 n56 5.064e-16
+cx667 a4 n52 8.4819e-16
+cx666 a4 n49 7.5456e-16
+cx665 a4 n41 5.064e-16
+cx664 a4 n38 7.5456e-16
+cx663 a4 n34 5.064e-16
+cx662 a4 n27 9.432e-16
+cx661 a4 n23 6.9504e-16
+cx660 a3 n129 6.9504e-16
+cx659 a3 n125 9.432e-16
+cx658 a3 n117 7.5456e-16
+cx657 a3 n113 5.064e-16
+cx656 a3 n105 5.064e-16
+cx655 a3 n101 7.5456e-16
+cx654 a3 n97 8.4819e-16
+cx653 a3 n93 5.064e-16
+cx652 a3 n81 6.9504e-16
+cx651 a2 n69 6.9504e-16
+cx650 a2 n57 5.064e-16
+cx649 a2 n53 8.4819e-16
+cx648 a2 n50 7.5456e-16
+cx647 a2 n42 5.064e-16
+cx646 a2 n39 7.5456e-16
+cx645 a2 n35 5.064e-16
+cx644 a2 n28 9.432e-16
+cx643 a2 n24 6.9504e-16
+cx642 a1 n130 6.9504e-16
+cx641 a1 n126 9.432e-16
+cx640 a1 n118 7.5456e-16
+cx639 a1 n114 5.064e-16
+cx638 a1 n106 5.064e-16
+cx637 a1 n102 7.5456e-16
+cx636 a1 n98 8.4819e-16
+cx635 a1 n94 5.064e-16
+cx634 a1 n82 6.9504e-16
+cx633 gnd n130 1.89024e-15
+cx632 gnd n129 1.89024e-15
+cx631 gnd n128 1.89024e-15
+cx630 gnd n127 1.89024e-15
+cx629 gnd n126 1.09973e-14
+cx628 gnd n125 1.09973e-14
+cx627 gnd n124 1.09973e-14
+cx626 gnd n123 1.09973e-14
+cx625 gnd n118 1.48929e-14
+cx624 gnd n117 1.48929e-14
+cx623 gnd n116 1.48929e-14
+cx622 gnd n115 1.48929e-14
+cx621 gnd n106 1.1232e-15
+cx620 gnd n105 1.1232e-15
+cx619 gnd n104 1.1232e-15
+cx618 gnd n103 1.1232e-15
+cx617 gnd n102 1.40496e-14
+cx616 gnd n101 1.35432e-14
+cx615 gnd n100 1.35432e-14
+cx614 gnd n99 1.35432e-14
+cx613 gnd n98 5.70312e-15
+cx612 gnd n97 5.70312e-15
+cx611 gnd n96 5.70312e-15
+cx610 gnd n95 5.70312e-15
+cx609 gnd n90 5.064e-16
+cx608 gnd n86 3.03192e-15
+cx607 gnd n85 2.01912e-15
+cx606 gnd n84 2.01912e-15
+cx605 gnd n83 2.01912e-15
+cx604 gnd n82 2.13096e-15
+cx603 gnd n81 2.13096e-15
+cx602 gnd n80 2.13096e-15
+cx601 gnd n79 2.13096e-15
+cx600 gnd n74 1.0128e-15
+cx599 gnd n70 3.14376e-15
+cx598 gnd n69 2.13096e-15
+cx597 gnd n68 2.13096e-15
+cx596 gnd n67 2.13096e-15
+cx595 gnd n66 2.01912e-15
+cx594 gnd n65 2.01912e-15
+cx593 gnd n64 2.01912e-15
+cx592 gnd n63 2.01912e-15
+cx591 gnd n58 1.0128e-15
+cx590 gnd n54 6.71592e-15
+cx589 gnd n53 5.70312e-15
+cx588 gnd n52 5.70312e-15
+cx587 gnd n51 5.70312e-15
+cx586 gnd n50 1.32261e-14
+cx585 gnd n49 1.3312e-14
+cx584 gnd n48 1.32261e-14
+cx583 gnd n43 1.0128e-15
+cx582 gnd n39 1.18765e-14
+cx581 gnd n38 1.19624e-14
+cx580 gnd n37 1.18765e-14
+cx579 gnd n36 2.136e-15
+cx578 gnd n35 1.1232e-15
+cx577 gnd n34 1.1232e-15
+cx576 gnd n33 1.1232e-15
+cx575 gnd n28 1.39882e-14
+cx574 gnd n27 1.40741e-14
+cx573 gnd n26 1.416e-14
+cx572 gnd n25 2.90304e-15
+cx571 gnd n24 1.89024e-15
+cx570 gnd n23 1.89024e-15
+cx569 gnd n22 1.89024e-15
+cx568 gnd a7 4.1412e-15
+cx567 gnd a6 4.1412e-15
+cx566 gnd a5 4.1412e-15
+cx565 gnd a4 4.1412e-15
+cx564 gnd a3 4.1412e-15
+cx563 gnd a2 4.1412e-15
+cx562 gnd a1 4.1412e-15
+cx561 yout n123 5.064e-16
+cx560 yout n95 5.064e-16
+cx559 yout n29 5.064e-16
+cx558 yout gnd 1.44116e-15
+cx557 b n134 3.7728e-16
+cx556 b n86 1.8864e-16
+cx555 b n74 5.064e-16
+cx554 b n70 7.5144e-16
+cx553 b n58 5.064e-16
+cx552 b n54 8.4819e-16
+cx551 b n43 5.064e-16
+cx550 b n36 8.8368e-16
+cx549 b n25 8.8368e-16
+cx548 b gnd 6.16584e-15
+cx547 a n70 6.9504e-16
+cx546 a n58 5.064e-16
+cx545 a n54 8.4819e-16
+cx544 a n43 5.064e-16
+cx543 a n36 5.064e-16
+cx542 a n25 6.9504e-16
+cx541 a gnd 5.65032e-15
+cx540 a b 1.32048e-15
+cx539 vdd n138 9.9432e-16
+cx538 vdd n137 9.9432e-16
+cx537 vdd n136 9.9432e-16
+cx536 vdd n135 9.9432e-16
+cx535 vdd n134 9.9432e-16
+cx534 vdd n133 9.9432e-16
+cx533 vdd n132 9.9432e-16
+cx532 vdd n131 9.9432e-16
+cx531 vdd n126 2.48676e-15
+cx530 vdd n125 2.48676e-15
+cx529 vdd n124 2.48676e-15
+cx528 vdd n123 2.48676e-15
+cx527 vdd n118 1.05024e-15
+cx526 vdd n117 5.4384e-16
+cx525 vdd n116 5.4384e-16
+cx524 vdd n115 5.4384e-16
+cx523 vdd n110 5.064e-16
+cx522 vdd n102 1.05024e-15
+cx521 vdd n101 5.4384e-16
+cx520 vdd n100 5.4384e-16
+cx519 vdd n99 5.4384e-16
+cx518 vdd n90 5.064e-16
+cx517 vdd n86 1.02792e-15
+cx516 vdd n85 3.3288e-16
+cx515 vdd n84 3.3288e-16
+cx514 vdd n83 3.3288e-16
+cx513 vdd n82 3.3288e-16
+cx512 vdd n81 3.3288e-16
+cx511 vdd n80 3.3288e-16
+cx510 vdd n79 3.3288e-16
+cx509 vdd n74 5.064e-16
+cx508 vdd n70 1.21656e-15
+cx507 vdd n69 3.3288e-16
+cx506 vdd n68 3.3288e-16
+cx505 vdd n67 3.3288e-16
+cx504 vdd n66 3.3288e-16
+cx503 vdd n65 3.3288e-16
+cx502 vdd n64 3.3288e-16
+cx501 vdd n63 3.3288e-16
+cx500 vdd n58 5.064e-16
+cx499 vdd n54 8.8368e-16
+cx498 vdd n43 5.064e-16
+cx497 vdd n36 5.064e-16
+cx496 vdd n25 5.064e-16
+cx495 vdd gnd 8.86464e-15
+cx494 vdd b 9.432e-16
+cx493 vdd a 9.432e-16
+cx492 xout n123 5.064e-16
+cx491 xout n115 5.064e-16
+cx490 xout n95 5.064e-16
+cx489 xout n63 5.064e-16
+cx488 xout n44 5.064e-16
+cx487 xout n29 5.064e-16
+cx486 xout gnd 2.55812e-15
+cx485 xout yout 3.1776e-16
+cx484 zout yout 3.1776e-16
+cx483 zout xout 3.1776e-16
+cx482 b7 n135 3.7728e-16
+cx481 b7 n127 8.8368e-16
+cx480 b7 n123 9.432e-16
+cx479 b7 n115 7.5456e-16
+cx478 b7 n111 5.064e-16
+cx477 b7 n103 8.8368e-16
+cx476 b7 n99 7.5456e-16
+cx475 b7 n95 8.4819e-16
+cx474 b7 n91 5.064e-16
+cx473 b7 n79 7.5144e-16
+cx472 b7 n75 5.064e-16
+cx471 b7 n63 1.8864e-16
+cx470 b7 a7 1.32048e-15
+cx469 b7 gnd 4.65672e-15
+cx468 b6 n131 3.7728e-16
+cx467 b6 n83 1.8864e-16
+cx466 b6 n71 5.064e-16
+cx465 b6 n67 7.5144e-16
+cx464 b6 n55 5.064e-16
+cx463 b6 n51 8.4819e-16
+cx462 b6 n48 7.5456e-16
+cx461 b6 n40 5.064e-16
+cx460 b6 n37 7.5456e-16
+cx459 b6 n33 8.8368e-16
+cx458 b6 n26 9.432e-16
+cx457 b6 n22 8.8368e-16
+cx456 b6 a6 1.32048e-15
+cx455 b6 gnd 4.65672e-15
+cx454 b5 n136 3.7728e-16
+cx453 b5 n128 8.8368e-16
+cx452 b5 n124 9.432e-16
+cx451 b5 n116 7.5456e-16
+cx450 b5 n112 5.064e-16
+cx449 b5 n104 8.8368e-16
+cx448 b5 n100 7.5456e-16
+cx447 b5 n96 8.4819e-16
+cx446 b5 n92 5.064e-16
+cx445 b5 n80 7.5144e-16
+cx444 b5 n76 5.064e-16
+cx443 b5 n64 1.8864e-16
+cx442 b5 a5 1.32048e-15
+cx441 b5 gnd 4.65672e-15
+cx440 b4 n132 3.7728e-16
+cx439 b4 n84 1.8864e-16
+cx438 b4 n72 5.064e-16
+cx437 b4 n68 7.5144e-16
+cx436 b4 n56 5.064e-16
+cx435 b4 n52 8.4819e-16
+cx434 b4 n49 7.5456e-16
+cx433 b4 n41 5.064e-16
+cx432 b4 n38 7.5456e-16
+cx431 b4 n34 8.8368e-16
+cx430 b4 n27 9.432e-16
+cx429 b4 n23 8.8368e-16
+cx428 b4 a4 1.32048e-15
+cx427 b4 gnd 4.65672e-15
+cx426 b3 n137 3.7728e-16
+cx425 b3 n129 8.8368e-16
+cx424 b3 n125 9.432e-16
+cx423 b3 n117 7.5456e-16
+cx422 b3 n113 5.064e-16
+cx421 b3 n105 8.8368e-16
+cx420 b3 n101 7.5456e-16
+cx419 b3 n97 8.4819e-16
+cx418 b3 n93 5.064e-16
+cx417 b3 n81 7.5144e-16
+cx416 b3 n77 5.064e-16
+cx415 b3 n65 1.8864e-16
+cx414 b3 a3 1.32048e-15
+cx413 b3 gnd 4.65672e-15
+cx412 b2 n133 3.7728e-16
+cx411 b2 n85 1.8864e-16
+cx410 b2 n73 5.064e-16
+cx409 b2 n69 7.5144e-16
+cx408 b2 n57 5.064e-16
+cx407 b2 n53 8.4819e-16
+cx406 b2 n50 7.5456e-16
+cx405 b2 n42 5.064e-16
+cx404 b2 n39 7.5456e-16
+cx403 b2 n35 8.8368e-16
+cx402 b2 n28 9.432e-16
+cx401 b2 n24 8.8368e-16
+cx400 b2 a2 1.32048e-15
+cx399 b2 gnd 4.65672e-15
+cx398 b1 n138 3.7728e-16
+cx397 b1 n130 8.8368e-16
+cx396 b1 n126 9.432e-16
+cx395 b1 n118 7.5456e-16
+cx394 b1 n114 5.064e-16
+cx393 b1 n106 8.8368e-16
+cx392 b1 n102 7.5456e-16
+cx391 b1 n98 8.4819e-16
+cx390 b1 n94 5.064e-16
+cx389 b1 n82 7.5144e-16
+cx388 b1 n78 5.064e-16
+cx387 b1 n66 1.8864e-16
+cx386 b1 a1 1.32048e-15
+cx385 b1 gnd 4.65672e-15
+cx384 vdd gnd 3.84545e-14
+mx191 gnd a5 n128 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx190 gnd a3 n129 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx189 gnd a1 n130 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx188 gnd a7 n127 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx187 gnd n51 n123 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx186 gnd n52 n124 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx185 gnd n53 n125 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx184 gnd n54 n126 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx183 n123 n119 gnd gnd nfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx182 n124 n120 gnd gnd nfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx181 n125 n121 gnd gnd nfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx180 n126 n122 gnd gnd nfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx179 gnd a7 n199 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx178 gnd a5 n200 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx177 gnd a3 n201 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx176 gnd a1 n202 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx175 n199 n111 n103 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx174 n200 n112 n104 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx173 n201 n113 n105 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx172 n202 n114 n106 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx171 n120 n27 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx170 n121 n28 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx169 n122 vdd gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx168 n119 n26 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx167 gnd b7 n111 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx166 gnd b5 n112 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx165 gnd b3 n113 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx164 gnd b1 n114 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx163 n118 n86 n198 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx162 n115 n83 n195 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx161 n116 n84 n196 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx160 n117 n85 n197 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx159 n195 n107 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx158 n196 n108 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx157 n197 n109 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx156 n198 n110 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx155 gnd b7 n191 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx154 gnd b5 n192 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx153 gnd b3 n193 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx152 gnd b1 n194 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx151 n191 n127 n103 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx150 n192 n128 n104 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx149 n193 n129 n105 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx148 n194 n130 n106 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx147 n107 n37 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx146 n108 n38 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx145 n109 n39 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx144 n110 gnd gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx143 gnd n103 n95 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx142 gnd n104 n96 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx141 gnd n105 n97 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx140 gnd n106 n98 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx139 n100 n68 n188 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx138 n101 n69 n189 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx137 n102 n70 n190 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx136 n99 n67 n187 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx135 n189 n89 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx134 n190 n90 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx133 n187 n87 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx132 n188 n88 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx131 gnd b1 n94 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx130 gnd b7 n91 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx129 gnd b5 n92 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx128 gnd b3 n93 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx127 n87 n48 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx126 n88 n49 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx125 n89 n50 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx124 n90 gnd gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx123 gnd n91 n183 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx122 gnd n92 n184 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx121 gnd n93 n185 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx120 gnd n94 n186 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx119 n83 n26 n179 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx118 n84 n27 n180 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx117 n85 n28 n181 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx116 n86 vdd n182 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx115 n186 a1 n178 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx114 n183 a7 n175 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx113 n184 a5 n176 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx112 n185 a3 n177 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx111 n179 b6 n171 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx110 n180 b4 n172 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx109 n181 b2 n173 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx108 n182 b n174 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx107 n175 n123 n79 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx106 n176 n124 n80 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx105 n177 n125 n81 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx104 n178 n126 n82 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx103 n171 n71 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx102 n172 n72 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx101 n173 n73 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx100 n174 n74 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx99 gnd a7 n75 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx98 gnd a5 n76 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx97 gnd a3 n77 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx96 gnd a1 n78 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx95 n71 a6 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx94 n72 a4 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx93 n73 a2 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx92 n74 a gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx91 gnd n76 n168 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx90 gnd n77 n169 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx89 gnd n78 n170 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx88 gnd n75 n167 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx87 n67 n26 n163 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx86 n68 n27 n164 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx85 n69 n28 n165 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx84 n70 vdd n166 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx83 n167 b7 n159 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx82 n168 b5 n160 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx81 n169 b3 n161 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx80 n170 b1 n162 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx79 n166 a n158 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx78 n163 a6 n155 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx77 n164 a4 n156 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx76 n165 a2 n157 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=1.215e-12 pd=9e-07
++ps=9e-07
+mx75 n159 n123 n63 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx74 n160 n124 n64 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx73 n161 n125 n65 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx72 n162 n126 n66 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx71 n155 n55 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx70 n156 n56 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx69 n157 n57 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx68 n158 n58 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx67 gnd n99 n59 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx66 gnd n100 n60 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx65 gnd n101 n61 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx64 gnd n102 n62 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx63 n55 b6 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx62 n56 b4 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx61 n57 b2 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx60 n58 b gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx59 gnd n59 n151 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx58 gnd n60 n152 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx57 gnd n61 n153 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx56 gnd n62 n154 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx55 n152 n80 n48 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx54 n153 n81 n49 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx53 n154 n82 n50 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx52 n151 n79 xout gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx51 n51 n33 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx50 n52 n34 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx49 n53 n35 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx48 n54 n36 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx47 gnd n118 n47 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx46 gnd n115 n44 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx45 gnd n116 n45 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx44 gnd n117 n46 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx43 n33 n22 n147 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx42 n34 n23 n148 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx41 n35 n24 n149 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx40 n36 n25 n150 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx39 n147 b6 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx38 n148 b4 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx37 n149 b2 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx36 n150 b gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx35 gnd n44 n143 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx34 gnd n45 n144 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx33 gnd n46 n145 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx32 gnd n47 n146 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx31 n143 n63 yout gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx30 n144 n64 n37 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx29 n145 n65 n38 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx28 n146 n66 n39 gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx27 n43 b gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx26 n40 b6 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx25 n41 b4 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx24 n42 b2 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx23 gnd n124 n30 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx22 gnd n125 n31 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx21 gnd n126 n32 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx20 gnd n123 n29 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx19 n33 n40 n139 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx18 n34 n41 n140 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx17 n35 n42 n141 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx16 n36 n43 n142 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06
++ps=9e-07
+mx15 n139 a6 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx14 n140 a4 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx13 n141 a2 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx12 n142 a gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx11 gnd n29 zout gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx10 gnd n30 n26 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx9 gnd n31 n27 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx8 gnd n32 n28 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=2.43e-12 pd=5.7e-06
++ps=1.8e-06
+mx7 zout n95 gnd gnd nfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx6 n26 n96 gnd gnd nfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx5 n27 n97 gnd gnd nfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx4 n28 n98 gnd gnd nfet w=2.7 l=0.6 ad=2.43e-12 as=4.05e-12 pd=1.8e-06
++ps=5.7e-06
+mx3 n23 a4 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx2 n24 a2 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx1 n25 a gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx0 n22 a6 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06

@@ -1,0 +1,17 @@
+radix 44 44
+vname a[7:0] b[7:0]
+io ii ii
+tunit us
+slope 0.1
+vih 5.0
+vil 0.0
+tdelay 0.1
+
+0 ff ff
+5 f0 f7
+10 00 ff
+15 00 00
+20 55 ff
+25 ff 00
+30 cc cc
+35 0f f0

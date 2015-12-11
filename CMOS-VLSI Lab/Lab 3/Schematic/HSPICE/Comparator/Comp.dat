@@ -1,0 +1,22 @@
+;
+radix 1	1 1 1 1	
+
+vname A	B Xin Yin Zin	
+
+io    i	i i i i 
+
+tunit ns
+
+slope 0.1
+
+vih   5.0 
+
+vil   0.0 	
+
+tdelay 0.1 	
+
+0 0 0 1 0 0	;initial conditions for circuit (Xin (a=b) must be true for 1st stage)
+5 0 1 1 0 0
+10 1 0 1 0 0
+15 1 1 1 0 0
+

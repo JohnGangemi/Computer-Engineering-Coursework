@@ -1,0 +1,66 @@
+$****************************************************************************
+$ Hspice Netlist:
+$ Block: /home/h/holst/cmos05/DesignLib/mux2_l/extracted/layout.oa
+$ Netlist Time: Oct 10 16:22:08 2014
+$****************************************************************************
+
+
+$****************************************************************************
+$ Main Circuit Netlist:
+$
+$ Block: mux2_l
+$ Last Time Saved: Oct 10 16:21:54 2014
+$****************************************************************************
+mx11 y n8 vdd vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=8.55e-12 pd=8.7e-06
++ps=8.7e-06
+mx10 n9 a n8 vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=5.13e-12 pd=8.7e-06
++ps=1.8e-06
+mx9 n8 n7 n9 vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=8.55e-12 pd=1.8e-06
++ps=8.7e-06
+mx8 vdd b n9 vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=5.13e-12 pd=8.7e-06
++ps=1.8e-06
+mx7 n9 s vdd vdd pfet w=5.7 l=0.6 ad=5.13e-12 as=8.55e-12 pd=1.8e-06
++ps=8.7e-06
+mx6 n7 s vdd vdd pfet w=5.7 l=0.6 ad=8.55e-12 as=8.55e-12 pd=8.7e-06
++ps=8.7e-06
+cx42 gnd n8 3.5154e-16
+cx41 gnd n7 3.5154e-16
+cx40 b gnd 2.511e-16
+cx39 a gnd 2.511e-16
+cx38 vdd n8 1.3392e-16
+cx37 vdd n7 1.3392e-16
+cx36 vdd b 3.5154e-16
+cx35 vdd a 3.5154e-16
+cx34 s gnd 5.1894e-16
+cx33 s vdd 5.1894e-16
+cx32 gnd n8 1.1832e-15
+cx31 gnd n7 2.12976e-15
+cx30 b n7 2.7e-16
+cx29 a n8 6.081e-16
+cx28 vdd n8 3.1242e-16
+cx27 vdd n7 4.4736e-16
+cx26 y gnd 7.4316e-16
+cx25 y vdd 4.4736e-16
+cx24 s n7 2.7e-16
+cx23 n8 n11 5.103e-17
+cx22 n8 n9 5.8098e-16
+cx21 n7 n9 3.5394e-16
+cx20 n7 n8 3.5394e-16
+cx19 gnd n8 9.7809e-16
+cx18 b n9 3.5394e-16
+cx17 a n9 3.5394e-16
+cx16 a n8 3.5394e-16
+cx15 vdd n9 8.0061e-16
+cx14 s n7 3.1776e-16
+cx13 s gnd 1.3296e-16
+cx12 s vdd 1.5888e-16
+mx5 y n8 gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06
+mx4 n8 a n11 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06 ps=9e-07
+mx3 n11 n7 gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx2 n8 b n10 gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=1.215e-12 pd=5.7e-06 ps=9e-07
+mx1 n10 s gnd gnd nfet w=2.7 l=0.6 ad=1.215e-12 as=4.05e-12 pd=9e-07
++ps=5.7e-06
+mx0 n7 s gnd gnd nfet w=2.7 l=0.6 ad=4.05e-12 as=4.05e-12 pd=5.7e-06
++ps=5.7e-06

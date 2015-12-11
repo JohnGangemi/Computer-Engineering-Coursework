@@ -1,0 +1,26 @@
+;Vector File shift.dat
+
+radix 1 1 1 1 1 1 1 44
+vname clk pre clr rs_ls ld_sh rs_in ls_in p[8:1]
+io    i i i i i i i ii
+tunit us
+slope 0.1
+vih   5.0 
+vil   0.0 
+tdelay 0.1 	
+
+0 0 11 00 00 AA
+5 1 11 00 00 AA
+10 0 11 01 00 00 
+15 1 11 01 00 00
+20 0 11 01 10 00
+25 1 11 01 10 00
+30 0 11 11 01 00
+35 1 11 11 01 00
+40 0 11 00 00 FF
+45 1 11 00 00 FF
+50 0 11 01 00 00
+55 1 11 01 00 00
+60 0 11 11 00 00
+65 1 11 11 00 00
+
